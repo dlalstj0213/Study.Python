@@ -14,11 +14,14 @@
 
 ```python
 print(type("문자입니다."))
-# 결과 : <class 'str'>
+# 결과 : 
+# <class 'str'>
 print(type(1234))
-# 결과 : <class 'int'>
+# 결과 : 
+# <class 'int'>
 print(type(true))
-# 결과 : <class 'bool'>
+# 결과 : 
+# <class 'bool'>
 ```
 
 ### 📌 [문자열]()
