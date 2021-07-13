@@ -2,22 +2,24 @@ from _typeshed import SupportsRead
 
 
 print("문자열입니다.")
-print('문자열입니다.')
+print("문자열입니다.")
 
 print('"문자열"입니다.')
 print("'문'자열입니다.")
-print("\"문자열입니다.\"")
-print('\'문자열입니다.\'')
+print('"문자열입니다."')
+print("'문자열입니다.'")
 
 print("줄바꿈\n입니다.")
 print("탭\t입니다.")
 print("역슬래시 \\")
 
-print("""\
+print(
+    """\
 여러줄1
 여러줄2
 여러줄3\
-""")
+"""
+)
 
 print("문자" + "연결")
 print("안녕" + "하세요" + " !")
