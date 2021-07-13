@@ -1,4 +1,4 @@
-# 파이썬 설정
+### 목차
 
 - [파이썬 설정](#파이썬-설정)
   - [파이썬 인터프리터(interpreter) 설치 및 다운로드](#파이썬-인터프리터interpreter-설치-및-다운로드)
@@ -9,6 +9,7 @@
   - [Git-Bash Terminal gets Error of Python](#git-bash-terminal-gets-error-of-python)
     - [`Permission Denied`](#permission-denied)
 
+# 파이썬 설정
 
 ## 파이썬 인터프리터(interpreter) 설치 및 다운로드
 
