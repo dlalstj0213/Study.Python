@@ -12,3 +12,4 @@
 ### 📌 [Jupyter](./03_jupyter)
 ### 📌 [조건문](./04_if/if.ipynb)
 ### 📌 [리스트와 조건문](./05_list_for/list_for.ipynb)
+### 📌 [함수](./06_func/func.ipynb)
