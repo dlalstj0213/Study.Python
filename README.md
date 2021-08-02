@@ -11,5 +11,5 @@
 - [🏷 **문자열 다양한 기능**](./02_data_type/other_functions)
 ### 📌 [Jupyter](./03_jupyter)
 ### 📌 [조건문](./04_if/if.ipynb)
-### 📌 [리스트와 조건문](./05_list_for/list_for.ipynb)
+### 📌 [반복문](./05_list_for/list_for.ipynb)
 ### 📌 [함수](./06_func/func.ipynb)
