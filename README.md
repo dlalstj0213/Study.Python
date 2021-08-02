@@ -14,3 +14,4 @@
 ### 📌 [반복문](./05_list_for/list_for.ipynb)
 ### 📌 [함수](./06_func/func.ipynb)
 - [🏷 **리스트 분석 정리**](./07_list/list_func.ipynb)
+### 📌 [예외 처리](./08_exception/exception.ipynb)
