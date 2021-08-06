@@ -18,3 +18,7 @@
 - [🏷 **함수 분석 정리**](./09_function/function.ipynb)
 - [🏷 **제너레이터**](./10_generator/generator.ipynb)
 ### 📌 [예외 처리](./11_exception/exception.ipynb)
+### 📌 [모듈](./12_module)
+- [🏷 **표준 모듈**](./12_module/standard_module.ipynb)
+- [🏷 **외부 모듈**](./12_module/external_module.ipynb)
+- [🏷 **커스텀 모듈**](./12_module/custom_module.ipynb)
