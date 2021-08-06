@@ -16,5 +16,5 @@
 - [🏷 **리스트 분석 정리**](./07_list/list_func.ipynb)
 - [🏷 **딕셔너리 분석 정리**](./08_dictionary/dictionary.ipynb)
 - [🏷 **함수 분석 정리**](./09_function/function.ipynb)
-- [🏷 **제너레이터**]()
-### 📌 [예외 처리](./10_exception/exception.ipynb)
+- [🏷 **제너레이터**](./10_generator/generator.ipynb)
+### 📌 [예외 처리](./11_exception/exception.ipynb)
