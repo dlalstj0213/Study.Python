@@ -22,3 +22,5 @@
 - [🏷 **표준 모듈**](./12_module/standard_module.ipynb)
 - [🏷 **외부 모듈**](./12_module/external_module.ipynb)
 - [🏷 **커스텀 모듈**](./12_module/custom_module.ipynb)
+### 📌 [클래스](./13_class)
+- [🏷 **클래스 사용**](./13_class/class.ipynb)
