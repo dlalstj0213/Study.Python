@@ -8,6 +8,8 @@
 
 # PyQt5 사용하기
 
+DOC: [https://www.riverbankcomputing.com/static/Docs/PyQt5/index.html](https://www.riverbankcomputing.com/static/Docs/PyQt5/index.html#)
+
 PyQt는 The Qt Company의 Qt 애플리케이션 프레임워크를 위한 파이썬 바인딩의 집합이다.  
 간단하게 파이썬을 사용하여 GUI 프로그래밍을 하기위한 패키지로 생각하면 된다.  
 PyQt를 환경설정하는 방법은 여러가지가 있지만 여기서는 `pip` 명령어를 통해 패키지를 설치하는 방식으로 진행한다.
