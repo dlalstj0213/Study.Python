@@ -28,6 +28,8 @@ class MyWindow(QMainWindow):
         print("Clicked!!!")
 
 
+
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWindow = MyWindow()
