@@ -89,7 +89,7 @@ class MainWindow(QMainWindow):
             class_name = module_name[0].upper() + module_name[1:]
             mod = __import__("view." + str(module_name), fromlist=[str(module_name)])
         except BaseException as be:
-            print(be)
+            print(">>>", be)
             MainWindow.append_status_msg(str(be), be.__class__.__name__)
         else:
             return getattr(mod, class_name)()

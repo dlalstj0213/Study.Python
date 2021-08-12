@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1070</width>
-    <height>951</height>
+    <width>1375</width>
+    <height>927</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -149,6 +149,9 @@ QPushButton::pressed{
         <layout class="QVBoxLayout" name="side_layout">
          <item>
           <widget class="QPushButton" name="btn_news">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="styleSheet">
             <string notr="true"/>
            </property>
@@ -159,6 +162,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_naver">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>네</string>
            </property>
@@ -166,6 +172,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_kakao">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>카</string>
            </property>
@@ -173,6 +182,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_line">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>라</string>
            </property>
@@ -180,6 +192,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_coupang">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>쿠</string>
            </property>
@@ -187,6 +202,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_baemin">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>배</string>
            </property>
@@ -194,6 +212,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_daangn">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>당</string>
            </property>
@@ -201,6 +222,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_toss">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>토</string>
            </property>
@@ -208,6 +232,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_zigbang">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>직</string>
            </property>
@@ -215,6 +242,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_yanolja">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>야</string>
            </property>
@@ -235,6 +265,9 @@ QPushButton::pressed{
          </item>
          <item>
           <widget class="QPushButton" name="btn_saved">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
            <property name="text">
             <string>+</string>
            </property>
@@ -277,7 +310,7 @@ QPushButton::pressed{
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1070</width>
+     <width>1375</width>
      <height>21</height>
     </rect>
    </property>

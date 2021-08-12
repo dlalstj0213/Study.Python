@@ -8,4 +8,4 @@ class ErrorPage(QWidget):
     def __init__(self):
         super(ErrorPage, self).__init__()
         self.title = "Page Not Found!"
-        uic.loadUi("ui/error_page.ui", self)
+        uic.loadUi("page/error_page.ui", self)

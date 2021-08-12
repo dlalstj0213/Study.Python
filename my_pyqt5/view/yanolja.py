@@ -8,4 +8,4 @@ class Yanolja(QDialog):
     def __init__(self):
         super(Yanolja, self).__init__()
         self.title = "야놀자 뷰우우~"
-        uic.loadUi("ui/view_2.ui", self)
+        uic.loadUi("page/view_2.ui", self)

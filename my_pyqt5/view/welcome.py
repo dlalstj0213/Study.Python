@@ -8,4 +8,4 @@ class Welcome(QWidget):
     def __init__(self):
         super(Welcome, self).__init__()
         self.title = "Welcome !"
-        uic.loadUi("ui/welcome.ui", self)
+        uic.loadUi("page/welcome.ui", self)
