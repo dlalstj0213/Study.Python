@@ -25,6 +25,7 @@ class MainWindow(QMainWindow):
         self.go_to(target=welcome)
         self.section_title.setText("# " + welcome.title)
         MainWindow.txt_status = self.txt_status
+        self.pages = {}
 
     # 메뉴 이벤트 연결
     def connect_events(self):
@@ -82,18 +83,22 @@ class MainWindow(QMainWindow):
 
     # 모듈 동적 임포트 후 뷰 클래스 로드
     # ex) btn_something -> find -> view.Something()
-    def load_view(self, object_name):
-        mod = None
-        try:
-            module_name = str(object_name).split("_")[1]
-            class_name = module_name[0].upper() + module_name[1:]
-            mod = __import__("view." + str(module_name), fromlist=[str(module_name)])
-        except BaseException as be:
-            print(">>>", be)
-            MainWindow.append_status_msg(str(be), be.__class__.__name__)
-        else:
-            return getattr(mod, class_name)()
-        return None
+    def load_view(self, object_name):  # Something
+        if self.pages.get(object_name) == None:
+            mod = None
+            try:
+                module_name = str(object_name).split("_")[1]
+                class_name = module_name.capitalize()
+                mod = __import__(
+                    "view." + str(module_name), fromlist=[str(module_name)]
+                )
+            except BaseException as be:
+                print(">>>", be)
+                MainWindow.append_status_msg(str(be), be.__class__.__name__)
+                return None
+            else:
+                self.pages[object_name] = getattr(mod, class_name)()
+        return self.pages.get(object_name)
 
     @classmethod
     def append_status_msg(cls, msg, error_type=None):

@@ -88,4 +88,5 @@ class Naver(QWidget):
     # 컴포넌트 생성 및 값 설정
     def load_item_view(self):
         for idx, item in enumerate(self.items):
-            self.content_layout.addWidget(CareerItem(item))
+            widget = CareerItem(item, idx)
+            self.content_layout.addWidget(widget)

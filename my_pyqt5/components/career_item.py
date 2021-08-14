@@ -20,9 +20,20 @@ def get_html_form(data):
 """
 
 
-# class CareerItem(QWidget):
 class CareerItem(QDialog):
-    def __init__(self, data):
+    def __init__(self, data, idx):
         super(CareerItem, self).__init__()
         uic.loadUi("widget/test.ui", self)
+        self.isSaved = False
         self.txt_info.setText(get_html_form(data))
+        self.set_btn_saved_status()
+        self.btn_save.clicked.connect(lambda: self.click_save_btn(data))
+
+    def click_save_btn(self, data):
+        self.set_btn_saved_status()
+
+    def set_btn_saved_status(self):
+        text = "저장 취소" if self.isSaved else "저장"
+        # self.btn_save.setDisabled(self.isSaved)
+        self.btn_save.setText(text)
+        self.isSaved = not self.isSaved
