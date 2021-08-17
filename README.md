@@ -24,4 +24,5 @@
 - [🏷 **커스텀 모듈**](./12_module/custom_module.ipynb)
 ### 📌 [클래스](./13_class)
 - [🏷 **클래스 사용**](./13_class/class.ipynb)
-### 📌 [**PyQt5 사용하기**](./my_pyqt5)
+### 📌 [**PyQt5 사용하기**](./15_python_gui)
+### 📌 [**Python GUI Build**](./15_python_gui/build)

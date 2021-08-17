@@ -5,6 +5,7 @@
   - [Qt Designer 설치](#qt-designer-설치)
   - [Qt Designer 실행](#qt-designer-실행)
     - [Qt Designer와 VSCode 연동](#qt-designer와-vscode-연동)
+- [파이썬 GUI 배포](#파이썬-gui-배포)
 
 # PyQt5 사용하기
 
@@ -61,3 +62,7 @@ VS Code를 실행 후 `pyqt integration` 익스텐션을 설치한다.
 ![](./../images/run_new_form.png)
 
 (아직 하나의 메뉴 밖에 없지만 GUI 작업하다보면 작업 파일에 맞는 메뉴 더 생김)
+
+# 파이썬 GUI 배포
+
+[🏷 **Python GUI Build**](./build)

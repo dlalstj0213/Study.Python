@@ -1,12 +1,6 @@
 import sys
-import os
-import platform
-from PySide2 import *
+
 from PySide2 import QtCore
-from PySide2 import QtWidgets
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
 from ui_splash_window import *
 from main_window import MainWindow
 
@@ -111,4 +105,4 @@ if __name__ == "__main__":
     try:
         sys.exit(app.exec_())
     except BaseException as be:
-        print(type(be), str(be))
+        pass

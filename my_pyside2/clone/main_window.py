@@ -1,9 +1,5 @@
 import sys
-from PySide2 import *
 from PySide2 import QtCore
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
 from ui_main_window import *
 
 

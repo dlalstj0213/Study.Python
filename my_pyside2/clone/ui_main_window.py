@@ -12,10 +12,10 @@ from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
 
-import os
+# import os
 
 # Conver qrc resource file to python resource file
-os.system("pyrcc5 python_app.qrc -o python_app_rc.py")
+# os.system("pyrcc5 python_app.qrc -o python_app_rc.py")
 # pyrcc5 -o resources.py resources.qrc
 
 import python_app_rc
