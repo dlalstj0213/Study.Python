@@ -3,16 +3,18 @@ import os
 import platform
 from PySide2 import *
 from PySide2 import QtCore
+from PySide2 import QtWidgets
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
-from ui_loading_window import *
+from ui_splash_window import *
+from main_window import MainWindow
 
 # Global value
 progressBarValue = 0
 
 
-class MainWindow(QMainWindow):
+class SplashWindow(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
@@ -58,6 +60,9 @@ class MainWindow(QMainWindow):
 
             loading_progress_status_text = "Loading completed successfully"
             loading_status_text = "Now Open Desk App"
+            # self.close()
+            self.open_main_window()
+
         elif progressBarValue < 10:
             pass
         elif progressBarValue < 20:
@@ -91,10 +96,19 @@ class MainWindow(QMainWindow):
         # increase progressBarValue by 1 after every time interval we set of 100 milliseconds;
         progressBarValue += 1
 
+    # open new window which is the main window and close previous window which is splash window when the progressBar reach 100 value
+    def open_main_window(self):
+        self.mainWindow = MainWindow()
+        self.mainWindow.show()
+        self.close()
+
 
 # Execute
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    main = MainWindow()
+    main = SplashWindow()
     main.show()
-    sys.exit(app.exec_())
+    try:
+        sys.exit(app.exec_())
+    except BaseException as be:
+        print(type(be), str(be))
