@@ -57,6 +57,10 @@ class MainWindow(QMainWindow):
         # self.ui.main_header.mouseMoveEvent = moveWindow
         self.ui.titlebar.mouseMoveEvent = moveWindow
 
+        # Slidable left MENU
+        # Left Menu toggle button
+        self.ui.left_menu_toggle_btn.clicked.connect(lambda: self.slideLeftMenu())
+
     # ###
     # Restore or maximize window function
     # ###
@@ -94,6 +98,28 @@ class MainWindow(QMainWindow):
         # Get the current position of the mouse
         self.clickPosition = event.globalPos()
         # This value will be used to move the window
+
+    # ###
+    # Slide left menu
+    # ###
+    def slideLeftMenu(self):
+        # Get Current left menu width
+        width = self.ui.left_side_menu.width()
+
+        if width == 0:
+            # Expand menu
+            newwidth = 160
+        else:
+            newwidth = 0
+
+        # Animate the transition
+        # self.animation = QPropertyAnimation(self.ui.left_side_menu, b"minimumWidth")
+        self.animation = QPropertyAnimation(self.ui.left_side_menu, b"maximumWidth")
+        self.animation.setDuration(250)
+        self.animation.setStartValue(width)
+        self.animation.setEndValue(newwidth)
+        self.animation.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
+        self.animation.start()
 
 
 # Execute

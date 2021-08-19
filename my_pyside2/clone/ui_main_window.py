@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowFWCmyZ.ui'
+## Form generated from reading UI file 'main_windowXvdmkP.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1086, 899)
+        MainWindow.resize(1300, 800)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
@@ -28,7 +28,10 @@ class Ui_MainWindow(object):
         self.main_header = QFrame(self.centralwidget)
         self.main_header.setObjectName(u"main_header")
         self.main_header.setMaximumSize(QSize(16777215, 40))
-        self.main_header.setStyleSheet(u"background-color: rgb(83, 0, 124);")
+        self.main_header.setStyleSheet(u"QFrame{\n"
+"	background-color: rgb(83, 0, 124);\n"
+"}\n"
+"")
         self.main_header.setFrameShape(QFrame.WinPanel)
         self.main_header.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_2 = QHBoxLayout(self.main_header)
@@ -46,8 +49,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.left_menu_toggle = QFrame(self.titlebar_container)
         self.left_menu_toggle.setObjectName(u"left_menu_toggle")
-        self.left_menu_toggle.setMinimumSize(QSize(100, 0))
-        self.left_menu_toggle.setMaximumSize(QSize(100, 16777215))
+        self.left_menu_toggle.setMinimumSize(QSize(80, 0))
+        self.left_menu_toggle.setMaximumSize(QSize(80, 16777215))
         self.left_menu_toggle.setStyleSheet(u"QPushButton {\n"
 "	border:none;\n"
 "	/*border-radius: 5px;*/\n"
@@ -66,27 +69,27 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setSpacing(0)
         self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
-        self.pushButton = QPushButton(self.left_menu_toggle)
-        self.pushButton.setObjectName(u"pushButton")
+        self.left_menu_toggle_btn = QPushButton(self.left_menu_toggle)
+        self.left_menu_toggle_btn.setObjectName(u"left_menu_toggle_btn")
         sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
-        self.pushButton.setSizePolicy(sizePolicy)
-        self.pushButton.setMinimumSize(QSize(0, 30))
+        sizePolicy.setHeightForWidth(self.left_menu_toggle_btn.sizePolicy().hasHeightForWidth())
+        self.left_menu_toggle_btn.setSizePolicy(sizePolicy)
+        self.left_menu_toggle_btn.setMinimumSize(QSize(0, 30))
         icon = QIcon()
         icon.addFile(u":/icons/icons/cil-menu.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton.setIcon(icon)
-        self.pushButton.setIconSize(QSize(24, 24))
+        self.left_menu_toggle_btn.setIcon(icon)
+        self.left_menu_toggle_btn.setIconSize(QSize(24, 24))
 
-        self.horizontalLayout_4.addWidget(self.pushButton)
+        self.horizontalLayout_4.addWidget(self.left_menu_toggle_btn)
 
 
         self.horizontalLayout_5.addWidget(self.left_menu_toggle)
 
         self.titlebar = QFrame(self.titlebar_container)
         self.titlebar.setObjectName(u"titlebar")
-        self.titlebar.setFrameShape(QFrame.StyledPanel)
+        self.titlebar.setFrameShape(QFrame.NoFrame)
         self.titlebar.setFrameShadow(QFrame.Raised)
 
         self.horizontalLayout_5.addWidget(self.titlebar)
@@ -119,6 +122,7 @@ class Ui_MainWindow(object):
         self.restore_btn.setObjectName(u"restore_btn")
         sizePolicy.setHeightForWidth(self.restore_btn.sizePolicy().hasHeightForWidth())
         self.restore_btn.setSizePolicy(sizePolicy)
+        self.restore_btn.setMinimumSize(QSize(37, 30))
         self.restore_btn.setCursor(QCursor(Qt.PointingHandCursor))
         self.restore_btn.setStyleSheet(u"")
         icon1 = QIcon()
@@ -162,43 +166,123 @@ class Ui_MainWindow(object):
 
         self.main_body = QFrame(self.centralwidget)
         self.main_body.setObjectName(u"main_body")
-        self.main_body.setStyleSheet(u"background-color: rgb(83, 0, 124);")
+        self.main_body.setStyleSheet(u"background-color: rgb(65, 0, 98);")
         self.main_body.setFrameShape(QFrame.StyledPanel)
         self.main_body.setFrameShadow(QFrame.Raised)
-        self.horizontalLayout = QHBoxLayout(self.main_body)
-        self.horizontalLayout.setSpacing(0)
-        self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout = QGridLayout(self.main_body)
+        self.gridLayout.setObjectName(u"gridLayout")
+        self.gridLayout.setVerticalSpacing(0)
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
         self.left_side_menu = QFrame(self.main_body)
         self.left_side_menu.setObjectName(u"left_side_menu")
-        self.left_side_menu.setMaximumSize(QSize(100, 16777215))
-        self.left_side_menu.setStyleSheet(u"")
+        self.left_side_menu.setMaximumSize(QSize(160, 16777215))
+        self.left_side_menu.setStyleSheet(u"QFrame{\n"
+"	background-color: rgb(83, 0, 124);\n"
+"}\n"
+"QPushButton{\n"
+"	padding: 20px 10px;\n"
+"	border: none;\n"
+"	border-radius: 10px;\n"
+"	background-color: rgb(83, 0, 124);\n"
+"	color: rgb(230, 230, 230);\n"
+"	\n"
+"	text-align: left;\n"
+"	background-repeat: none;\n"
+"	padding-left: 40px;\n"
+"	background-position: center left;\n"
+"}\n"
+"\n"
+"QPushButton::hover{\n"
+"	background-color: rgb(120, 0, 180);\n"
+"}\n"
+"\n"
+"QPushButton::pressed{\n"
+"	background-color: rgb(65, 0, 98);\n"
+"}")
         self.left_side_menu.setFrameShape(QFrame.NoFrame)
         self.left_side_menu.setFrameShadow(QFrame.Raised)
-        self.label_2 = QLabel(self.left_side_menu)
-        self.label_2.setObjectName(u"label_2")
-        self.label_2.setGeometry(QRect(10, 290, 91, 121))
+        self.verticalLayout_3 = QVBoxLayout(self.left_side_menu)
+        self.verticalLayout_3.setSpacing(0)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.verticalLayout_3.setContentsMargins(5, 5, 5, 5)
+        self.left_menu_top_btns = QFrame(self.left_side_menu)
+        self.left_menu_top_btns.setObjectName(u"left_menu_top_btns")
+        self.left_menu_top_btns.setFrameShape(QFrame.NoFrame)
+        self.left_menu_top_btns.setFrameShadow(QFrame.Raised)
+        self.formLayout = QFormLayout(self.left_menu_top_btns)
+        self.formLayout.setObjectName(u"formLayout")
+        self.formLayout.setHorizontalSpacing(0)
+        self.formLayout.setVerticalSpacing(0)
+        self.formLayout.setContentsMargins(0, 0, 0, 0)
+        self.pushButton_3 = QPushButton(self.left_menu_top_btns)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.pushButton_3.sizePolicy().hasHeightForWidth())
+        self.pushButton_3.setSizePolicy(sizePolicy1)
+        self.pushButton_3.setMinimumSize(QSize(100, 0))
+        self.pushButton_3.setMaximumSize(QSize(16777215, 16777215))
         font = QFont()
         font.setFamily(u"Consolas")
-        font.setPointSize(20)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setWordWrap(True)
+        font.setPointSize(15)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setStyleSheet(u"background-image: url(:/icons/icons/cil-home.png);")
 
-        self.horizontalLayout.addWidget(self.left_side_menu)
+        self.formLayout.setWidget(0, QFormLayout.SpanningRole, self.pushButton_3)
+
+        self.pushButton_4 = QPushButton(self.left_menu_top_btns)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        sizePolicy1.setHeightForWidth(self.pushButton_4.sizePolicy().hasHeightForWidth())
+        self.pushButton_4.setSizePolicy(sizePolicy1)
+        self.pushButton_4.setMinimumSize(QSize(100, 0))
+        self.pushButton_4.setMaximumSize(QSize(16777215, 16777215))
+        self.pushButton_4.setFont(font)
+        self.pushButton_4.setStyleSheet(u"background-image: url(:/icons/icons/cil-user.png);\n"
+"")
+
+        self.formLayout.setWidget(1, QFormLayout.SpanningRole, self.pushButton_4)
+
+
+        self.verticalLayout_3.addWidget(self.left_menu_top_btns)
+
+        self.pushButton_2 = QPushButton(self.left_side_menu)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        sizePolicy1.setHeightForWidth(self.pushButton_2.sizePolicy().hasHeightForWidth())
+        self.pushButton_2.setSizePolicy(sizePolicy1)
+        self.pushButton_2.setMinimumSize(QSize(100, 0))
+        self.pushButton_2.setMaximumSize(QSize(16777215, 16777215))
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setStyleSheet(u"background-image: url(:/icons/icons/cil-settings.png);")
+
+        self.verticalLayout_3.addWidget(self.pushButton_2)
+
+
+        self.gridLayout.addWidget(self.left_side_menu, 0, 0, 1, 1)
 
         self.center_main_items = QFrame(self.main_body)
         self.center_main_items.setObjectName(u"center_main_items")
         self.center_main_items.setStyleSheet(u"")
         self.center_main_items.setFrameShape(QFrame.StyledPanel)
         self.center_main_items.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_2 = QVBoxLayout(self.center_main_items)
+        self.verticalLayout_2.setSpacing(0)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.label = QLabel(self.center_main_items)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(220, 160, 521, 281))
-        self.label.setFont(font)
+        font1 = QFont()
+        font1.setFamily(u"Consolas")
+        font1.setPointSize(20)
+        font1.setBold(True)
+        font1.setWeight(75)
+        self.label.setFont(font1)
+        self.label.setAlignment(Qt.AlignCenter)
 
-        self.horizontalLayout.addWidget(self.center_main_items)
+        self.verticalLayout_2.addWidget(self.label)
+
+
+        self.gridLayout.addWidget(self.center_main_items, 0, 1, 1, 1)
 
         self.right_side_menu = QFrame(self.main_body)
         self.right_side_menu.setObjectName(u"right_side_menu")
@@ -206,13 +290,19 @@ class Ui_MainWindow(object):
         self.right_side_menu.setStyleSheet(u"")
         self.right_side_menu.setFrameShape(QFrame.NoFrame)
         self.right_side_menu.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_4 = QVBoxLayout(self.right_side_menu)
+        self.verticalLayout_4.setSpacing(0)
+        self.verticalLayout_4.setObjectName(u"verticalLayout_4")
+        self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.label_3 = QLabel(self.right_side_menu)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(10, 290, 81, 121))
-        self.label_3.setFont(font)
+        self.label_3.setFont(font1)
         self.label_3.setWordWrap(True)
 
-        self.horizontalLayout.addWidget(self.right_side_menu)
+        self.verticalLayout_4.addWidget(self.label_3)
+
+
+        self.gridLayout.addWidget(self.right_side_menu, 0, 2, 1, 1)
 
 
         self.verticalLayout.addWidget(self.main_body)
@@ -220,7 +310,10 @@ class Ui_MainWindow(object):
         self.main_footer = QFrame(self.centralwidget)
         self.main_footer.setObjectName(u"main_footer")
         self.main_footer.setMaximumSize(QSize(16777215, 20))
-        self.main_footer.setStyleSheet(u"background-color: rgb(83, 0, 124);")
+        self.main_footer.setStyleSheet(u"QFrame{\n"
+"	background-color: rgb(83, 0, 124);\n"
+"}\n"
+"")
         self.main_footer.setFrameShape(QFrame.WinPanel)
         self.main_footer.setFrameShadow(QFrame.Raised)
 
@@ -235,11 +328,13 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.pushButton.setText("")
+        self.left_menu_toggle_btn.setText("")
         self.restore_btn.setText("")
         self.minimize_btn.setText("")
         self.close_btn.setText("")
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"LEFT MENU", None))
+        self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"HOME", None))
+        self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"ACCOUNT", None))
+        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"SETTING", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"MAIN BODY ITEMS HERE okay", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"RIGHT MENU", None))
     # retranslateUi

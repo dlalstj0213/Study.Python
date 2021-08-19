@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1086</width>
-    <height>899</height>
+    <width>1300</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,7 +39,10 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(83, 0, 124);</string>
+       <string notr="true">QFrame{
+	background-color: rgb(83, 0, 124);
+}
+</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::WinPanel</enum>
@@ -94,13 +97,13 @@
            <widget class="QFrame" name="left_menu_toggle">
             <property name="minimumSize">
              <size>
-              <width>100</width>
+              <width>80</width>
               <height>0</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>80</width>
               <height>16777215</height>
              </size>
             </property>
@@ -141,7 +144,7 @@ QPushButton::pressed{
               <number>0</number>
              </property>
              <item>
-              <widget class="QPushButton" name="pushButton">
+              <widget class="QPushButton" name="left_menu_toggle_btn">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                  <horstretch>0</horstretch>
@@ -175,7 +178,7 @@ QPushButton::pressed{
           <item>
            <widget class="QFrame" name="titlebar">
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
@@ -236,6 +239,12 @@ QPushButton::pressed{
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>37</width>
+              <height>30</height>
+             </size>
             </property>
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
@@ -325,7 +334,7 @@ QPushButton::pressed{
     <item>
      <widget class="QFrame" name="main_body">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(83, 0, 124);</string>
+       <string notr="true">background-color: rgb(65, 0, 98);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -333,10 +342,7 @@ QPushButton::pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <property name="spacing">
-        <number>0</number>
-       </property>
+      <layout class="QGridLayout" name="gridLayout">
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -349,16 +355,41 @@ QPushButton::pressed{
        <property name="bottomMargin">
         <number>0</number>
        </property>
-       <item>
+       <property name="verticalSpacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
         <widget class="QFrame" name="left_side_menu">
          <property name="maximumSize">
           <size>
-           <width>100</width>
+           <width>160</width>
            <height>16777215</height>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true"/>
+          <string notr="true">QFrame{
+	background-color: rgb(83, 0, 124);
+}
+QPushButton{
+	padding: 20px 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(83, 0, 124);
+	color: rgb(230, 230, 230);
+	
+	text-align: left;
+	background-repeat: none;
+	padding-left: 40px;
+	background-position: center left;
+}
+
+QPushButton::hover{
+	background-color: rgb(120, 0, 180);
+}
+
+QPushButton::pressed{
+	background-color: rgb(65, 0, 98);
+}</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::NoFrame</enum>
@@ -366,33 +397,159 @@ QPushButton::pressed{
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <widget class="QLabel" name="label_2">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>290</y>
-            <width>91</width>
-            <height>121</height>
-           </rect>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
           </property>
-          <property name="font">
-           <font>
-            <family>Consolas</family>
-            <pointsize>20</pointsize>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
+          <property name="leftMargin">
+           <number>5</number>
           </property>
-          <property name="text">
-           <string>LEFT MENU</string>
+          <property name="topMargin">
+           <number>5</number>
           </property>
-          <property name="wordWrap">
-           <bool>true</bool>
+          <property name="rightMargin">
+           <number>5</number>
           </property>
-         </widget>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="left_menu_top_btns">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QFormLayout" name="formLayout">
+             <property name="horizontalSpacing">
+              <number>0</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0" colspan="2">
+              <widget class="QPushButton" name="pushButton_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Consolas</family>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-image: url(:/icons/icons/cil-home.png);</string>
+               </property>
+               <property name="text">
+                <string>HOME</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QPushButton" name="pushButton_4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Consolas</family>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-image: url(:/icons/icons/cil-user.png);
+</string>
+               </property>
+               <property name="text">
+                <string>ACCOUNT</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Consolas</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/icons/icons/cil-settings.png);</string>
+            </property>
+            <property name="text">
+             <string>SETTING</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
-       <item>
+       <item row="0" column="1">
         <widget class="QFrame" name="center_main_items">
          <property name="styleSheet">
           <string notr="true"/>
@@ -403,30 +560,44 @@ QPushButton::pressed{
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <widget class="QLabel" name="label">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>160</y>
-            <width>521</width>
-            <height>281</height>
-           </rect>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
           </property>
-          <property name="font">
-           <font>
-            <family>Consolas</family>
-            <pointsize>20</pointsize>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
+          <property name="leftMargin">
+           <number>0</number>
           </property>
-          <property name="text">
-           <string>MAIN BODY ITEMS HERE okay</string>
+          <property name="topMargin">
+           <number>0</number>
           </property>
-         </widget>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>Consolas</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>MAIN BODY ITEMS HERE okay</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
-       <item>
+       <item row="0" column="2">
         <widget class="QFrame" name="right_side_menu">
          <property name="maximumSize">
           <size>
@@ -443,30 +614,41 @@ QPushButton::pressed{
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <widget class="QLabel" name="label_3">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>290</y>
-            <width>81</width>
-            <height>121</height>
-           </rect>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="spacing">
+           <number>0</number>
           </property>
-          <property name="font">
-           <font>
-            <family>Consolas</family>
-            <pointsize>20</pointsize>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
+          <property name="leftMargin">
+           <number>0</number>
           </property>
-          <property name="text">
-           <string>RIGHT MENU</string>
+          <property name="topMargin">
+           <number>0</number>
           </property>
-          <property name="wordWrap">
-           <bool>true</bool>
+          <property name="rightMargin">
+           <number>0</number>
           </property>
-         </widget>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <family>Consolas</family>
+              <pointsize>20</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>RIGHT MENU</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
       </layout>
@@ -481,7 +663,10 @@ QPushButton::pressed{
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(83, 0, 124);</string>
+       <string notr="true">QFrame{
+	background-color: rgb(83, 0, 124);
+}
+</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::WinPanel</enum>
