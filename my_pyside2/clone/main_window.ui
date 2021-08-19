@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1164</width>
-    <height>915</height>
+    <width>1086</width>
+    <height>899</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,7 +35,7 @@
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>50</height>
+        <height>40</height>
        </size>
       </property>
       <property name="styleSheet">
@@ -69,7 +69,7 @@
           <string notr="true"/>
          </property>
          <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
+          <enum>QFrame::NoFrame</enum>
          </property>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
@@ -106,11 +106,16 @@
             </property>
             <property name="styleSheet">
              <string notr="true">QPushButton {
-	border-radius: 5px;
+	border:none;
+	/*border-radius: 5px;*/
 }
 
 QPushButton::hover{
 	background-color: rgb(120, 0, 180);
+}
+
+QPushButton::pressed{
+	background-color: rgb(65, 0, 98);
 }</string>
             </property>
             <property name="frameShape">
@@ -137,10 +142,16 @@ QPushButton::hover{
              </property>
              <item>
               <widget class="QPushButton" name="pushButton">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
-                 <height>40</height>
+                 <height>30</height>
                 </size>
                </property>
                <property name="text">
@@ -178,21 +189,26 @@ QPushButton::hover{
         <widget class="QFrame" name="top_right_btns">
          <property name="maximumSize">
           <size>
-           <width>100</width>
+           <width>120</width>
            <height>16777215</height>
           </size>
          </property>
          <property name="styleSheet">
           <string notr="true">QPushButton {
-	border-radius: 5px;
+	border:none;
+	/*border-radius: 5px;*/
 }
 
 QPushButton::hover{
 	background-color: rgb(120, 0, 180);
+}
+
+QPushButton::pressed{
+	background-color: rgb(65, 0, 98);
 }</string>
          </property>
          <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
+          <enum>QFrame::NoFrame</enum>
          </property>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
@@ -208,13 +224,19 @@ QPushButton::hover{
            <number>0</number>
           </property>
           <property name="rightMargin">
-           <number>0</number>
+           <number>2</number>
           </property>
           <property name="bottomMargin">
            <number>0</number>
           </property>
           <item>
-           <widget class="QPushButton" name="minimize_btn">
+           <widget class="QPushButton" name="restore_btn">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
@@ -226,7 +248,7 @@ QPushButton::hover{
             </property>
             <property name="icon">
              <iconset resource="python_app.qrc">
-              <normaloff>:/icons/icons/cil-window-restore.png</normaloff>:/icons/icons/cil-window-restore.png</iconset>
+              <normaloff>:/icons/icons/cil-window-maximize.png</normaloff>:/icons/icons/cil-window-maximize.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -237,7 +259,13 @@ QPushButton::hover{
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="restore_btn">
+           <widget class="QPushButton" name="minimize_btn">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
@@ -261,6 +289,12 @@ QPushButton::hover{
           </item>
           <item>
            <widget class="QPushButton" name="close_btn">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
@@ -443,7 +477,7 @@ QPushButton::hover{
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>30</height>
+        <height>20</height>
        </size>
       </property>
       <property name="styleSheet">
