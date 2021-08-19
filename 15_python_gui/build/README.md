@@ -1,4 +1,4 @@
-# ⚙ Build Python GUI
+# ⚙ Build Python Programe
 
 파이썬 프로그램 배포라는 주제로 파이썬 프로그램을 `.exe` 실행 파일로 만드는 방법을 알아보자.  
 다른 OS환경에 Python이 설치되어 있지 않아도 `.exe` 실행 파일로 파이썬 프로그램을 실행 가능하게 하는 것이다.
