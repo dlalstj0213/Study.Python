@@ -81,3 +81,6 @@
 ## 더 알아보기
 
 ### 📌 [클래스 사용](./class.ipynb)
+### 📌 [심화: 메타 클래스](./meta_clazz.ipynb)
+### 📌 [활용: dataclasses](./dataclazzes.ipynb)
+### 📌 [활용: Enum](./e_n_u_m.ipynb)
