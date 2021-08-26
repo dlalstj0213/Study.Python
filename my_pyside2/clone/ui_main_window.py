@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowXvdmkP.ui'
+## Form generated from reading UI file 'main_windowZysAki.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1300, 800)
+        MainWindow.resize(1274, 796)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
@@ -277,6 +277,7 @@ class Ui_MainWindow(object):
         font1.setBold(True)
         font1.setWeight(75)
         self.label.setFont(font1)
+        self.label.setFrameShadow(QFrame.Sunken)
         self.label.setAlignment(Qt.AlignCenter)
 
         self.verticalLayout_2.addWidget(self.label)
@@ -314,8 +315,27 @@ class Ui_MainWindow(object):
 "	background-color: rgb(83, 0, 124);\n"
 "}\n"
 "")
-        self.main_footer.setFrameShape(QFrame.WinPanel)
+        self.main_footer.setFrameShape(QFrame.NoFrame)
         self.main_footer.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout = QHBoxLayout(self.main_footer)
+        self.horizontalLayout.setSpacing(0)
+        self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.label_2 = QLabel(self.main_footer)
+        self.label_2.setObjectName(u"label_2")
+
+        self.horizontalLayout.addWidget(self.label_2)
+
+        self.size_grip = QFrame(self.main_footer)
+        self.size_grip.setObjectName(u"size_grip")
+        self.size_grip.setMinimumSize(QSize(10, 10))
+        self.size_grip.setMaximumSize(QSize(20, 20))
+        self.size_grip.setStyleSheet(u"")
+        self.size_grip.setFrameShape(QFrame.StyledPanel)
+        self.size_grip.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout.addWidget(self.size_grip, 0, Qt.AlignRight|Qt.AlignVCenter)
+
 
         self.verticalLayout.addWidget(self.main_footer)
 
@@ -337,5 +357,6 @@ class Ui_MainWindow(object):
         self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"SETTING", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"MAIN BODY ITEMS HERE okay", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"RIGHT MENU", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
     # retranslateUi
 

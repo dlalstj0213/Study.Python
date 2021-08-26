@@ -39,6 +39,11 @@ class MainWindow(QMainWindow):
         # Close window
         self.ui.close_btn.clicked.connect(lambda: self.close())
 
+        ##############################
+        # Window Size grip
+        ##############################
+        QSizeGrip(self.ui.size_grip)
+
         # ###
         # Move window on mouse drag event on the tittle bar
         # ###
