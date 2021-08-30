@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interfacelMqkjX.ui'
+## Form generated from reading UI file 'interfacewNuSdk.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1001, 724)
+        MainWindow.resize(1180, 873)
         MainWindow.setStyleSheet(u"*{\n"
 "	border: none;\n"
 "}")
@@ -48,22 +48,27 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.slide_menu = QFrame(self.slide_menu_container)
         self.slide_menu.setObjectName(u"slide_menu")
-        self.slide_menu.setMinimumSize(QSize(198, 0))
+        sizePolicy1 = QSizePolicy(QSizePolicy.Maximum, QSizePolicy.Expanding)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.slide_menu.sizePolicy().hasHeightForWidth())
+        self.slide_menu.setSizePolicy(sizePolicy1)
+        self.slide_menu.setMinimumSize(QSize(198, 600))
         self.slide_menu.setFrameShape(QFrame.StyledPanel)
         self.slide_menu.setFrameShadow(QFrame.Raised)
         self.verticalLayout_5 = QVBoxLayout(self.slide_menu)
         self.verticalLayout_5.setSpacing(0)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
         self.verticalLayout_5.setContentsMargins(0, 0, 0, 0)
-        self.frame_7 = QFrame(self.slide_menu)
-        self.frame_7.setObjectName(u"frame_7")
-        self.frame_7.setFrameShape(QFrame.StyledPanel)
-        self.frame_7.setFrameShadow(QFrame.Raised)
-        self.horizontalLayout_8 = QHBoxLayout(self.frame_7)
+        self.app_frame = QFrame(self.slide_menu)
+        self.app_frame.setObjectName(u"app_frame")
+        self.app_frame.setFrameShape(QFrame.StyledPanel)
+        self.app_frame.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_8 = QHBoxLayout(self.app_frame)
         self.horizontalLayout_8.setSpacing(6)
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
         self.horizontalLayout_8.setContentsMargins(6, 6, 6, 6)
-        self.label_2 = QLabel(self.frame_7)
+        self.label_2 = QLabel(self.app_frame)
         self.label_2.setObjectName(u"label_2")
         font = QFont()
         font.setFamily(u"Nirmala UI")
@@ -74,49 +79,92 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_8.addWidget(self.label_2, 0, Qt.AlignLeft|Qt.AlignTop)
 
-        self.label_3 = QLabel(self.frame_7)
+        self.label_3 = QLabel(self.app_frame)
         self.label_3.setObjectName(u"label_3")
         self.label_3.setPixmap(QPixmap(u":/icons/icons/github.svg"))
 
         self.horizontalLayout_8.addWidget(self.label_3, 0, Qt.AlignLeft|Qt.AlignTop)
 
 
-        self.verticalLayout_5.addWidget(self.frame_7, 0, Qt.AlignTop)
+        self.verticalLayout_5.addWidget(self.app_frame, 0, Qt.AlignTop)
 
-        self.frame_8 = QFrame(self.slide_menu)
-        self.frame_8.setObjectName(u"frame_8")
-        sizePolicy1 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
-        sizePolicy1.setHorizontalStretch(0)
-        sizePolicy1.setVerticalStretch(0)
-        sizePolicy1.setHeightForWidth(self.frame_8.sizePolicy().hasHeightForWidth())
-        self.frame_8.setSizePolicy(sizePolicy1)
-        self.frame_8.setFrameShape(QFrame.StyledPanel)
-        self.frame_8.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_6 = QVBoxLayout(self.frame_8)
+        self.slide_menu_items = QFrame(self.slide_menu)
+        self.slide_menu_items.setObjectName(u"slide_menu_items")
+        self.slide_menu_items.setEnabled(True)
+        sizePolicy2 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        sizePolicy2.setHorizontalStretch(0)
+        sizePolicy2.setVerticalStretch(0)
+        sizePolicy2.setHeightForWidth(self.slide_menu_items.sizePolicy().hasHeightForWidth())
+        self.slide_menu_items.setSizePolicy(sizePolicy2)
+        self.slide_menu_items.setMinimumSize(QSize(0, 0))
+        self.slide_menu_items.setMaximumSize(QSize(16777215, 16777215))
+        self.slide_menu_items.setMouseTracking(False)
+        self.slide_menu_items.setFrameShape(QFrame.StyledPanel)
+        self.slide_menu_items.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_6 = QVBoxLayout(self.slide_menu_items)
         self.verticalLayout_6.setSpacing(0)
         self.verticalLayout_6.setObjectName(u"verticalLayout_6")
         self.verticalLayout_6.setContentsMargins(0, 0, 0, 0)
-        self.toolBox = QToolBox(self.frame_8)
+        self.toolBox = QToolBox(self.slide_menu_items)
         self.toolBox.setObjectName(u"toolBox")
+        self.toolBox.setEnabled(True)
+        sizePolicy.setHeightForWidth(self.toolBox.sizePolicy().hasHeightForWidth())
+        self.toolBox.setSizePolicy(sizePolicy)
+        self.toolBox.setMaximumSize(QSize(16777215, 16777215))
         self.toolBox.setStyleSheet(u"QToolBox{\n"
-"	background-color: rgb(24, 24, 36);\n"
+"	background-color: rgb(9, 5, 13);\n"
 "	text-align: left;\n"
+"	padding-bottom: 5px;\n"
 "}\n"
 "\n"
 "QToolBox::tab{\n"
+"	font-weight: bold;\n"
+"	font-family: Nirmala UI;\n"
+"	font-size: 15px;\n"
+"	margin-left: 10px;\n"
 "	border-radius: 5px;\n"
-"	background-color: rgb(17, 18, 26);\n"
+"	border-bottom-right-radius: 0px;\n"
+"	border-top-right-radius: 0px;\n"
+"	background-color: rgb(9, 5, 13);\n"
 "	text-align: left;\n"
+"}\n"
+"\n"
+"QToolBox::tab::selected{\n"
+"	background-color: rgb(24, 24, 36);\n"
+"    border-right: 5px solid rgb(65, 65, 97);\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"	font-weight: bold;\n"
+"	text-align: left;\n"
+"	font-family: Nirmala UI;\n"
+"	font-size: 13px;\n"
+"	padding: 10px;\n"
+"	border-radius: 10px;\n"
+"	border-bottom-right-radius: 0px;\n"
+"	border-top-right-radius: 0px;\n"
+"}\n"
+"\n"
+"QPushButton::hover {\n"
+"	color: rgb(0, 0, 0);\n"
+"	background-color: rgb(255, 255, 255);\n"
+"}\n"
+"\n"
+"QLabel{\n"
+"	font-family: Nirmala UI;\n"
 "}")
-        self.page = QWidget()
-        self.page.setObjectName(u"page")
-        self.page.setGeometry(QRect(0, 0, 200, 604))
-        self.verticalLayout_7 = QVBoxLayout(self.page)
+        self.menu_1 = QWidget()
+        self.menu_1.setObjectName(u"menu_1")
+        self.menu_1.setEnabled(True)
+        self.menu_1.setGeometry(QRect(0, 0, 198, 745))
+        self.menu_1.setStyleSheet(u"")
+        self.verticalLayout_7 = QVBoxLayout(self.menu_1)
         self.verticalLayout_7.setSpacing(0)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
-        self.verticalLayout_7.setContentsMargins(0, 0, 0, 0)
-        self.frame_10 = QFrame(self.page)
+        self.verticalLayout_7.setContentsMargins(20, 0, 0, 0)
+        self.frame_10 = QFrame(self.menu_1)
         self.frame_10.setObjectName(u"frame_10")
+        self.frame_10.setEnabled(True)
         self.frame_10.setFrameShape(QFrame.StyledPanel)
         self.frame_10.setFrameShadow(QFrame.Raised)
         self.verticalLayout_8 = QVBoxLayout(self.frame_10)
@@ -125,6 +173,11 @@ class Ui_MainWindow(object):
         self.verticalLayout_8.setContentsMargins(0, 0, 0, 0)
         self.pushButton_10 = QPushButton(self.frame_10)
         self.pushButton_10.setObjectName(u"pushButton_10")
+        font1 = QFont()
+        font1.setFamily(u"Nirmala UI")
+        font1.setBold(True)
+        font1.setWeight(75)
+        self.pushButton_10.setFont(font1)
         icon = QIcon()
         icon.addFile(u":/icons/icons/alert-triangle.svg", QSize(), QIcon.Normal, QIcon.Off)
         self.pushButton_10.setIcon(icon)
@@ -153,15 +206,17 @@ class Ui_MainWindow(object):
 
         icon3 = QIcon()
         icon3.addFile(u":/icons/icons/chevron-down.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.toolBox.addItem(self.page, icon3, u"Drop Menu 1")
-        self.page_2 = QWidget()
-        self.page_2.setObjectName(u"page_2")
-        self.page_2.setGeometry(QRect(0, 0, 200, 604))
-        self.verticalLayout_9 = QVBoxLayout(self.page_2)
+        icon3.addFile(u":/icons/icons/chevron-down.svg", QSize(), QIcon.Normal, QIcon.On)
+        self.toolBox.addItem(self.menu_1, icon3, u"Drop Menu 1")
+        self.menu_2 = QWidget()
+        self.menu_2.setObjectName(u"menu_2")
+        self.menu_2.setGeometry(QRect(0, 0, 200, 745))
+        self.menu_2.setContextMenuPolicy(Qt.NoContextMenu)
+        self.verticalLayout_9 = QVBoxLayout(self.menu_2)
         self.verticalLayout_9.setSpacing(0)
         self.verticalLayout_9.setObjectName(u"verticalLayout_9")
-        self.verticalLayout_9.setContentsMargins(0, 0, 0, 0)
-        self.frame_11 = QFrame(self.page_2)
+        self.verticalLayout_9.setContentsMargins(20, 0, 0, 0)
+        self.frame_11 = QFrame(self.menu_2)
         self.frame_11.setObjectName(u"frame_11")
         self.frame_11.setFrameShape(QFrame.StyledPanel)
         self.frame_11.setFrameShadow(QFrame.Raised)
@@ -186,41 +241,44 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_9.addWidget(self.frame_11, 0, Qt.AlignTop)
 
-        self.label_4 = QLabel(self.page_2)
+        self.label_4 = QLabel(self.menu_2)
         self.label_4.setObjectName(u"label_4")
         self.label_4.setWordWrap(True)
 
         self.verticalLayout_9.addWidget(self.label_4, 0, Qt.AlignTop)
 
-        self.toolBox.addItem(self.page_2, icon3, u"Drop Menu 2")
+        icon5 = QIcon()
+        icon5.addFile(u":/icons/icons/chevron-down.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolBox.addItem(self.menu_2, icon5, u"Drop Menu 2")
 
         self.verticalLayout_6.addWidget(self.toolBox)
 
 
-        self.verticalLayout_5.addWidget(self.frame_8)
+        self.verticalLayout_5.addWidget(self.slide_menu_items)
 
-        self.frame_9 = QFrame(self.slide_menu)
-        self.frame_9.setObjectName(u"frame_9")
-        self.frame_9.setFrameShape(QFrame.StyledPanel)
-        self.frame_9.setFrameShadow(QFrame.Raised)
-        self.horizontalLayout_9 = QHBoxLayout(self.frame_9)
+
+        self.verticalLayout_2.addWidget(self.slide_menu)
+
+        self.exit_frame = QFrame(self.slide_menu_container)
+        self.exit_frame.setObjectName(u"exit_frame")
+        self.exit_frame.setMaximumSize(QSize(16777215, 16777215))
+        self.exit_frame.setFrameShape(QFrame.StyledPanel)
+        self.exit_frame.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_9 = QHBoxLayout(self.exit_frame)
         self.horizontalLayout_9.setSpacing(0)
         self.horizontalLayout_9.setObjectName(u"horizontalLayout_9")
-        self.horizontalLayout_9.setContentsMargins(0, 0, 0, 0)
-        self.exit_button = QPushButton(self.frame_9)
+        self.horizontalLayout_9.setContentsMargins(0, 3, 0, 0)
+        self.exit_button = QPushButton(self.exit_frame)
         self.exit_button.setObjectName(u"exit_button")
-        icon5 = QIcon()
-        icon5.addFile(u":/icons/icons/external-link.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.exit_button.setIcon(icon5)
+        icon6 = QIcon()
+        icon6.addFile(u":/icons/icons/external-link.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.exit_button.setIcon(icon6)
         self.exit_button.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_9.addWidget(self.exit_button, 0, Qt.AlignLeft|Qt.AlignBottom)
 
 
-        self.verticalLayout_5.addWidget(self.frame_9, 0, Qt.AlignBottom)
-
-
-        self.verticalLayout_2.addWidget(self.slide_menu)
+        self.verticalLayout_2.addWidget(self.exit_frame)
 
 
         self.horizontalLayout.addWidget(self.slide_menu_container)
@@ -235,13 +293,24 @@ class Ui_MainWindow(object):
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.header_frame = QFrame(self.main_body)
         self.header_frame.setObjectName(u"header_frame")
-        self.header_frame.setStyleSheet(u"background-color: rgb(9, 5, 13);")
+        self.header_frame.setStyleSheet(u"*{\n"
+"	background-color: rgb(9, 5, 13);\n"
+"}\n"
+"\n"
+"QPushButton{\n"
+"	border-radius: 5px;\n"
+"}\n"
+"\n"
+"QPushButton::hover{\n"
+"	background-color: rgb(65, 65, 97);\n"
+"	/*background-color: rgb(24, 24, 36);*/\n"
+"}")
         self.header_frame.setFrameShape(QFrame.StyledPanel)
         self.header_frame.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_2 = QHBoxLayout(self.header_frame)
-        self.horizontalLayout_2.setSpacing(6)
+        self.horizontalLayout_2.setSpacing(0)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
-        self.horizontalLayout_2.setContentsMargins(6, 6, 6, 6)
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 6)
         self.frame_4 = QFrame(self.header_frame)
         self.frame_4.setObjectName(u"frame_4")
         self.frame_4.setFrameShape(QFrame.StyledPanel)
@@ -250,28 +319,39 @@ class Ui_MainWindow(object):
         self.horizontalLayout_7.setSpacing(0)
         self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
         self.horizontalLayout_7.setContentsMargins(0, 0, 0, 0)
-        self.open_close_side_bar_btn = QPushButton(self.frame_4)
+        self.frame_12 = QFrame(self.frame_4)
+        self.frame_12.setObjectName(u"frame_12")
+        self.frame_12.setFrameShape(QFrame.StyledPanel)
+        self.frame_12.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_10 = QHBoxLayout(self.frame_12)
+        self.horizontalLayout_10.setSpacing(0)
+        self.horizontalLayout_10.setObjectName(u"horizontalLayout_10")
+        self.horizontalLayout_10.setContentsMargins(6, 6, 6, 0)
+        self.open_close_side_bar_btn = QPushButton(self.frame_12)
         self.open_close_side_bar_btn.setObjectName(u"open_close_side_bar_btn")
-        icon6 = QIcon()
-        icon6.addFile(u":/icons/icons/chevron-left.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.open_close_side_bar_btn.setIcon(icon6)
+        icon7 = QIcon()
+        icon7.addFile(u":/icons/icons/chevron-left.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.open_close_side_bar_btn.setIcon(icon7)
         self.open_close_side_bar_btn.setIconSize(QSize(32, 32))
 
-        self.horizontalLayout_7.addWidget(self.open_close_side_bar_btn)
+        self.horizontalLayout_10.addWidget(self.open_close_side_bar_btn)
 
 
-        self.horizontalLayout_2.addWidget(self.frame_4, 0, Qt.AlignLeft|Qt.AlignTop)
+        self.horizontalLayout_7.addWidget(self.frame_12)
 
-        self.frame_3 = QFrame(self.header_frame)
+        self.frame_3 = QFrame(self.frame_4)
         self.frame_3.setObjectName(u"frame_3")
+        self.frame_3.setMinimumSize(QSize(0, 0))
         self.frame_3.setFrameShape(QFrame.StyledPanel)
         self.frame_3.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_6 = QHBoxLayout(self.frame_3)
         self.horizontalLayout_6.setSpacing(0)
         self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
-        self.horizontalLayout_6.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_6.setContentsMargins(0, 6, 0, 0)
         self.lineEdit = QLineEdit(self.frame_3)
         self.lineEdit.setObjectName(u"lineEdit")
+        sizePolicy2.setHeightForWidth(self.lineEdit.sizePolicy().hasHeightForWidth())
+        self.lineEdit.setSizePolicy(sizePolicy2)
         self.lineEdit.setMinimumSize(QSize(150, 0))
         self.lineEdit.setStyleSheet(u"border-bottom: 3px solid rgb(230, 5, 64);")
 
@@ -279,44 +359,52 @@ class Ui_MainWindow(object):
 
         self.pushButton_6 = QPushButton(self.frame_3)
         self.pushButton_6.setObjectName(u"pushButton_6")
-        icon7 = QIcon()
-        icon7.addFile(u":/icons/icons/search.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_6.setIcon(icon7)
+        icon8 = QIcon()
+        icon8.addFile(u":/icons/icons/search.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_6.setIcon(icon8)
+        self.pushButton_6.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_6.addWidget(self.pushButton_6, 0, Qt.AlignLeft)
 
 
-        self.horizontalLayout_2.addWidget(self.frame_3, 0, Qt.AlignLeft|Qt.AlignTop)
+        self.horizontalLayout_7.addWidget(self.frame_3)
 
-        self.frame_2 = QFrame(self.header_frame)
+        self.frame_2 = QFrame(self.frame_4)
         self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setStyleSheet(u"")
         self.frame_2.setFrameShape(QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_5 = QHBoxLayout(self.frame_2)
         self.horizontalLayout_5.setSpacing(0)
         self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
-        self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_5.setContentsMargins(20, 6, 0, 0)
         self.pushButton_5 = QPushButton(self.frame_2)
         self.pushButton_5.setObjectName(u"pushButton_5")
-        icon8 = QIcon()
-        icon8.addFile(u":/icons/icons/user.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_5.setIcon(icon8)
+        icon9 = QIcon()
+        icon9.addFile(u":/icons/icons/user.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_5.setIcon(icon9)
+        self.pushButton_5.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_5.addWidget(self.pushButton_5)
 
         self.pushButton_4 = QPushButton(self.frame_2)
         self.pushButton_4.setObjectName(u"pushButton_4")
-        icon9 = QIcon()
-        icon9.addFile(u":/icons/icons/bell.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_4.setIcon(icon9)
+        icon10 = QIcon()
+        icon10.addFile(u":/icons/icons/bell.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_4.setIcon(icon10)
+        self.pushButton_4.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_5.addWidget(self.pushButton_4)
 
 
-        self.horizontalLayout_2.addWidget(self.frame_2, 0, Qt.AlignHCenter|Qt.AlignTop)
+        self.horizontalLayout_7.addWidget(self.frame_2, 0, Qt.AlignHCenter)
+
+
+        self.horizontalLayout_2.addWidget(self.frame_4, 0, Qt.AlignLeft|Qt.AlignTop)
 
         self.frame = QFrame(self.header_frame)
         self.frame.setObjectName(u"frame")
+        self.frame.setStyleSheet(u"border-radius: 0px;")
         self.frame.setFrameShape(QFrame.StyledPanel)
         self.frame.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_4 = QHBoxLayout(self.frame)
@@ -325,39 +413,41 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.minimize_window_button = QPushButton(self.frame)
         self.minimize_window_button.setObjectName(u"minimize_window_button")
-        icon10 = QIcon()
-        icon10.addFile(u":/icons/icons/arrow-down-left.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.minimize_window_button.setIcon(icon10)
+        icon11 = QIcon()
+        icon11.addFile(u":/icons/icons/arrow-down-left.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.minimize_window_button.setIcon(icon11)
+        self.minimize_window_button.setIconSize(QSize(20, 21))
 
         self.horizontalLayout_4.addWidget(self.minimize_window_button)
 
         self.restore_window_button = QPushButton(self.frame)
         self.restore_window_button.setObjectName(u"restore_window_button")
-        icon11 = QIcon()
-        icon11.addFile(u":/icons/icons/maximize-2.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.restore_window_button.setIcon(icon11)
+        icon12 = QIcon()
+        icon12.addFile(u":/icons/icons/maximize-2.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.restore_window_button.setIcon(icon12)
+        self.restore_window_button.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_4.addWidget(self.restore_window_button)
 
         self.close_window_button = QPushButton(self.frame)
         self.close_window_button.setObjectName(u"close_window_button")
-        icon12 = QIcon()
-        icon12.addFile(u":/icons/icons/x.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.close_window_button.setIcon(icon12)
+        icon13 = QIcon()
+        icon13.addFile(u":/icons/icons/x.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.close_window_button.setIcon(icon13)
+        self.close_window_button.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_4.addWidget(self.close_window_button)
 
 
         self.horizontalLayout_2.addWidget(self.frame, 0, Qt.AlignRight|Qt.AlignTop)
 
+        self.frame.raise_()
+        self.frame_4.raise_()
 
         self.verticalLayout.addWidget(self.header_frame, 0, Qt.AlignTop)
 
         self.main_body_contents = QFrame(self.main_body)
         self.main_body_contents.setObjectName(u"main_body_contents")
-        sizePolicy2 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
-        sizePolicy2.setHorizontalStretch(0)
-        sizePolicy2.setVerticalStretch(0)
         sizePolicy2.setHeightForWidth(self.main_body_contents.sizePolicy().hasHeightForWidth())
         self.main_body_contents.setSizePolicy(sizePolicy2)
         self.main_body_contents.setFrameShape(QFrame.StyledPanel)
@@ -377,12 +467,12 @@ class Ui_MainWindow(object):
 
         self.label_6 = QLabel(self.main_body_contents)
         self.label_6.setObjectName(u"label_6")
-        font1 = QFont()
-        font1.setFamily(u"Nirmala UI")
-        font1.setPointSize(20)
-        font1.setBold(True)
-        font1.setWeight(75)
-        self.label_6.setFont(font1)
+        font2 = QFont()
+        font2.setFamily(u"Nirmala UI")
+        font2.setPointSize(20)
+        font2.setBold(True)
+        font2.setWeight(75)
+        self.label_6.setFont(font2)
         self.label_6.setAlignment(Qt.AlignCenter)
 
         self.verticalLayout_11.addWidget(self.label_6, 0, Qt.AlignHCenter|Qt.AlignTop)
@@ -424,9 +514,9 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.pushButton_7 = QPushButton(self.frame_5)
         self.pushButton_7.setObjectName(u"pushButton_7")
-        icon13 = QIcon()
-        icon13.addFile(u":/icons/icons/box.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_7.setIcon(icon13)
+        icon14 = QIcon()
+        icon14.addFile(u":/icons/icons/box.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_7.setIcon(icon14)
 
         self.verticalLayout_3.addWidget(self.pushButton_7, 0, Qt.AlignBottom)
 
@@ -452,7 +542,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.toolBox.setCurrentIndex(1)
+        self.toolBox.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -465,11 +555,11 @@ class Ui_MainWindow(object):
         self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"ITEM 1", None))
         self.pushButton_11.setText(QCoreApplication.translate("MainWindow", u"ITEM 2", None))
         self.pushButton_12.setText(QCoreApplication.translate("MainWindow", u"ITEM 3", None))
-        self.toolBox.setItemText(self.toolBox.indexOf(self.page), QCoreApplication.translate("MainWindow", u"Drop Menu 1", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.menu_1), QCoreApplication.translate("MainWindow", u"Drop Menu 1", None))
         self.pushButton_13.setText(QCoreApplication.translate("MainWindow", u"SUB_MENU", None))
         self.pushButton_14.setText(QCoreApplication.translate("MainWindow", u"SUB_MENU", None))
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"Some text you would like to fill here", None))
-        self.toolBox.setItemText(self.toolBox.indexOf(self.page_2), QCoreApplication.translate("MainWindow", u"Drop Menu 2", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.menu_2), QCoreApplication.translate("MainWindow", u"Drop Menu 2", None))
         self.exit_button.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
         self.open_close_side_bar_btn.setText("")
         self.lineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Search", None))
