@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interfacewNuSdk.ui'
+## Form generated from reading UI file 'interfacempvMeg.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1180, 873)
+        MainWindow.resize(1180, 875)
         MainWindow.setStyleSheet(u"*{\n"
 "	border: none;\n"
 "}")
@@ -68,22 +68,25 @@ class Ui_MainWindow(object):
         self.horizontalLayout_8.setSpacing(6)
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
         self.horizontalLayout_8.setContentsMargins(6, 6, 6, 6)
-        self.label_2 = QLabel(self.app_frame)
-        self.label_2.setObjectName(u"label_2")
+        self.lbl_app_name = QLabel(self.app_frame)
+        self.lbl_app_name.setObjectName(u"lbl_app_name")
         font = QFont()
         font.setFamily(u"Nirmala UI")
         font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
-        self.label_2.setFont(font)
+        self.lbl_app_name.setFont(font)
+        self.lbl_app_name.setCursor(QCursor(Qt.PointingHandCursor))
+        self.lbl_app_name.setMouseTracking(False)
 
-        self.horizontalLayout_8.addWidget(self.label_2, 0, Qt.AlignLeft|Qt.AlignTop)
+        self.horizontalLayout_8.addWidget(self.lbl_app_name, 0, Qt.AlignLeft|Qt.AlignTop)
 
-        self.label_3 = QLabel(self.app_frame)
-        self.label_3.setObjectName(u"label_3")
-        self.label_3.setPixmap(QPixmap(u":/icons/icons/github.svg"))
+        self.lbl_app_icon = QLabel(self.app_frame)
+        self.lbl_app_icon.setObjectName(u"lbl_app_icon")
+        self.lbl_app_icon.setCursor(QCursor(Qt.PointingHandCursor))
+        self.lbl_app_icon.setPixmap(QPixmap(u":/icons/icons/github.svg"))
 
-        self.horizontalLayout_8.addWidget(self.label_3, 0, Qt.AlignLeft|Qt.AlignTop)
+        self.horizontalLayout_8.addWidget(self.lbl_app_icon, 0, Qt.AlignLeft|Qt.AlignTop)
 
 
         self.verticalLayout_5.addWidget(self.app_frame, 0, Qt.AlignTop)
@@ -108,8 +111,8 @@ class Ui_MainWindow(object):
         self.toolBox = QToolBox(self.slide_menu_items)
         self.toolBox.setObjectName(u"toolBox")
         self.toolBox.setEnabled(True)
-        sizePolicy.setHeightForWidth(self.toolBox.sizePolicy().hasHeightForWidth())
-        self.toolBox.setSizePolicy(sizePolicy)
+        sizePolicy2.setHeightForWidth(self.toolBox.sizePolicy().hasHeightForWidth())
+        self.toolBox.setSizePolicy(sizePolicy2)
         self.toolBox.setMaximumSize(QSize(16777215, 16777215))
         self.toolBox.setStyleSheet(u"QToolBox{\n"
 "	background-color: rgb(9, 5, 13);\n"
@@ -156,7 +159,7 @@ class Ui_MainWindow(object):
         self.menu_1 = QWidget()
         self.menu_1.setObjectName(u"menu_1")
         self.menu_1.setEnabled(True)
-        self.menu_1.setGeometry(QRect(0, 0, 198, 745))
+        self.menu_1.setGeometry(QRect(0, 0, 198, 747))
         self.menu_1.setStyleSheet(u"")
         self.verticalLayout_7 = QVBoxLayout(self.menu_1)
         self.verticalLayout_7.setSpacing(0)
@@ -171,27 +174,27 @@ class Ui_MainWindow(object):
         self.verticalLayout_8.setSpacing(0)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
         self.verticalLayout_8.setContentsMargins(0, 0, 0, 0)
-        self.pushButton_10 = QPushButton(self.frame_10)
-        self.pushButton_10.setObjectName(u"pushButton_10")
+        self.github_browser_button = QPushButton(self.frame_10)
+        self.github_browser_button.setObjectName(u"github_browser_button")
         font1 = QFont()
         font1.setFamily(u"Nirmala UI")
         font1.setBold(True)
         font1.setWeight(75)
-        self.pushButton_10.setFont(font1)
+        self.github_browser_button.setFont(font1)
         icon = QIcon()
-        icon.addFile(u":/icons/icons/alert-triangle.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_10.setIcon(icon)
-        self.pushButton_10.setIconSize(QSize(16, 16))
+        icon.addFile(u":/icons/icons/globe.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.github_browser_button.setIcon(icon)
+        self.github_browser_button.setIconSize(QSize(16, 16))
 
-        self.verticalLayout_8.addWidget(self.pushButton_10)
+        self.verticalLayout_8.addWidget(self.github_browser_button)
 
-        self.pushButton_11 = QPushButton(self.frame_10)
-        self.pushButton_11.setObjectName(u"pushButton_11")
+        self.repository_button = QPushButton(self.frame_10)
+        self.repository_button.setObjectName(u"repository_button")
         icon1 = QIcon()
-        icon1.addFile(u":/icons/icons/bar-chart-2.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_11.setIcon(icon1)
+        icon1.addFile(u":/icons/icons/database.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.repository_button.setIcon(icon1)
 
-        self.verticalLayout_8.addWidget(self.pushButton_11)
+        self.verticalLayout_8.addWidget(self.repository_button)
 
         self.pushButton_12 = QPushButton(self.frame_10)
         self.pushButton_12.setObjectName(u"pushButton_12")
@@ -207,10 +210,10 @@ class Ui_MainWindow(object):
         icon3 = QIcon()
         icon3.addFile(u":/icons/icons/chevron-down.svg", QSize(), QIcon.Normal, QIcon.Off)
         icon3.addFile(u":/icons/icons/chevron-down.svg", QSize(), QIcon.Normal, QIcon.On)
-        self.toolBox.addItem(self.menu_1, icon3, u"Drop Menu 1")
+        self.toolBox.addItem(self.menu_1, icon3, u"GIT")
         self.menu_2 = QWidget()
         self.menu_2.setObjectName(u"menu_2")
-        self.menu_2.setGeometry(QRect(0, 0, 200, 745))
+        self.menu_2.setGeometry(QRect(0, 0, 200, 747))
         self.menu_2.setContextMenuPolicy(Qt.NoContextMenu)
         self.verticalLayout_9 = QVBoxLayout(self.menu_2)
         self.verticalLayout_9.setSpacing(0)
@@ -249,7 +252,7 @@ class Ui_MainWindow(object):
 
         icon5 = QIcon()
         icon5.addFile(u":/icons/icons/chevron-down.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.toolBox.addItem(self.menu_2, icon5, u"Drop Menu 2")
+        self.toolBox.addItem(self.menu_2, icon5, u"SETTINGS")
 
         self.verticalLayout_6.addWidget(self.toolBox)
 
@@ -450,32 +453,23 @@ class Ui_MainWindow(object):
         self.main_body_contents.setObjectName(u"main_body_contents")
         sizePolicy2.setHeightForWidth(self.main_body_contents.sizePolicy().hasHeightForWidth())
         self.main_body_contents.setSizePolicy(sizePolicy2)
+        self.main_body_contents.setStyleSheet(u"")
         self.main_body_contents.setFrameShape(QFrame.StyledPanel)
         self.main_body_contents.setFrameShadow(QFrame.Raised)
         self.verticalLayout_11 = QVBoxLayout(self.main_body_contents)
+        self.verticalLayout_11.setSpacing(0)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
-        self.label_5 = QLabel(self.main_body_contents)
-        self.label_5.setObjectName(u"label_5")
-        self.label_5.setMinimumSize(QSize(60, 60))
-        self.label_5.setMaximumSize(QSize(60, 60))
-        self.label_5.setStyleSheet(u"border: 5px solid rgb(230, 5, 64);\n"
-"border-radius: 30px;")
-        self.label_5.setPixmap(QPixmap(u":/icons/icons/github.svg"))
-        self.label_5.setAlignment(Qt.AlignCenter)
+        self.verticalLayout_11.setContentsMargins(-1, -1, -1, 0)
+        self.stackedWidget = QStackedWidget(self.main_body_contents)
+        self.stackedWidget.setObjectName(u"stackedWidget")
+        self.page = QWidget()
+        self.page.setObjectName(u"page")
+        self.stackedWidget.addWidget(self.page)
+        self.page_2 = QWidget()
+        self.page_2.setObjectName(u"page_2")
+        self.stackedWidget.addWidget(self.page_2)
 
-        self.verticalLayout_11.addWidget(self.label_5, 0, Qt.AlignHCenter|Qt.AlignBottom)
-
-        self.label_6 = QLabel(self.main_body_contents)
-        self.label_6.setObjectName(u"label_6")
-        font2 = QFont()
-        font2.setFamily(u"Nirmala UI")
-        font2.setPointSize(20)
-        font2.setBold(True)
-        font2.setWeight(75)
-        self.label_6.setFont(font2)
-        self.label_6.setAlignment(Qt.AlignCenter)
-
-        self.verticalLayout_11.addWidget(self.label_6, 0, Qt.AlignHCenter|Qt.AlignTop)
+        self.verticalLayout_11.addWidget(self.stackedWidget)
 
 
         self.verticalLayout.addWidget(self.main_body_contents)
@@ -550,16 +544,16 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"APP NAME", None))
-        self.label_3.setText("")
-        self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"ITEM 1", None))
-        self.pushButton_11.setText(QCoreApplication.translate("MainWindow", u"ITEM 2", None))
-        self.pushButton_12.setText(QCoreApplication.translate("MainWindow", u"ITEM 3", None))
-        self.toolBox.setItemText(self.toolBox.indexOf(self.menu_1), QCoreApplication.translate("MainWindow", u"Drop Menu 1", None))
+        self.lbl_app_name.setText(QCoreApplication.translate("MainWindow", u"MY GITGUB", None))
+        self.lbl_app_icon.setText("")
+        self.github_browser_button.setText(QCoreApplication.translate("MainWindow", u"GitHub Browser", None))
+        self.repository_button.setText(QCoreApplication.translate("MainWindow", u"Repository", None))
+        self.pushButton_12.setText(QCoreApplication.translate("MainWindow", u"SUB_MENU", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.menu_1), QCoreApplication.translate("MainWindow", u"GIT", None))
         self.pushButton_13.setText(QCoreApplication.translate("MainWindow", u"SUB_MENU", None))
         self.pushButton_14.setText(QCoreApplication.translate("MainWindow", u"SUB_MENU", None))
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"Some text you would like to fill here", None))
-        self.toolBox.setItemText(self.toolBox.indexOf(self.menu_2), QCoreApplication.translate("MainWindow", u"Drop Menu 2", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.menu_2), QCoreApplication.translate("MainWindow", u"SETTINGS", None))
         self.exit_button.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
         self.open_close_side_bar_btn.setText("")
         self.lineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Search", None))
@@ -569,8 +563,6 @@ class Ui_MainWindow(object):
         self.minimize_window_button.setText("")
         self.restore_window_button.setText("")
         self.close_window_button.setText("")
-        self.label_5.setText("")
-        self.label_6.setText(QCoreApplication.translate("MainWindow", u"GITHUB", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Modern UI v 1.1.1", None))
         self.pushButton_7.setText("")
     # retranslateUi

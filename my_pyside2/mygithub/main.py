@@ -1,10 +1,15 @@
 import sys
 import os
-from PySide2 import QtCore, QtGui
+from view.repository import Repository
+from PySide2 import QtCore
+from PySide2 import QtGui
+from PySide2 import QtWidgets
 
 #############################################
 # IMPORT GUI FILE
-from ui_interface import *
+from ui_interface import Ui_MainWindow
+from view.home import Home
+from view.browser import Browser
 #############################################
 
 
@@ -15,9 +20,9 @@ from ui_interface import *
 PREV_BUTTON = None
 
 
-class MainWindow(QMainWindow):
+class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
-        QMainWindow.__init__(self)
+        QtWidgets.QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
@@ -34,11 +39,11 @@ class MainWindow(QMainWindow):
         #############################################
         # Shadow effect style
         #############################################
-        self.shadow = QGraphicsDropShadowEffect(self)
+        self.shadow = QtWidgets.QGraphicsDropShadowEffect(self)
         self.shadow.setBlurRadius(50)
         self.shadow.setXOffset(0)
         self.shadow.setYOffset(0)
-        self.shadow.setColor(QColor(0, 92, 157, 550))
+        self.shadow.setColor(QtGui.QColor(0, 92, 157, 550))
 
         ##############################################
         # Apply shadow to central widget
@@ -56,7 +61,7 @@ class MainWindow(QMainWindow):
         ##############################################
         # WIndow Size grip to resize window
         ##############################################
-        QSizeGrip(self.ui.size_grip)
+        QtWidgets.QSizeGrip(self.ui.size_grip)
 
         ##############################################
         # Minimize window
@@ -80,7 +85,7 @@ class MainWindow(QMainWindow):
                 # Move window only when window is normal size
                 ###############################################################################################
                 # If left mouse button is clicked (Only accept left mouse button clicks)
-                if e.buttons() == Qt.LeftButton:
+                if e.buttons() == QtGui.Qt.LeftButton:
                     # Move window
                     self.move(self.pos() + e.globalPos() - self.clickPosition)
                     self.clickPosition = e.globalPos()
@@ -98,13 +103,26 @@ class MainWindow(QMainWindow):
         self.ui.open_close_side_bar_btn.clicked.connect(
             lambda: self.slideLeftMenu())
 
-        buttons = self.ui.toolBox.findChildren(QPushButton)
+        buttons = self.ui.toolBox.findChildren(QtWidgets.QPushButton)
         for button in buttons:
             button.clicked.connect(self.click_button)
+
+        self.views = {"total": 0}
+        self.ui.stackedWidget.removeWidget(self.ui.page)
+        self.ui.stackedWidget.removeWidget(self.ui.page_2)
+        self.change_current_stackwidget("home", Home())
+
+        def mouseClicked(e):
+            if e.buttons() == QtGui.Qt.LeftButton:
+                self.change_current_stackwidget("home")
+
+        self.ui.lbl_app_name.mousePressEvent = mouseClicked
+        self.ui.lbl_app_icon.mousePressEvent = mouseClicked
 
     ###############################################################################################
     # Update restore button icon on maximizing or minimizing the window
     ###############################################################################################
+
     def restore_or_maximize_window(self):
         # If window is maximized
         if self.isMaximized():
@@ -117,6 +135,23 @@ class MainWindow(QMainWindow):
             # Change Icon
             self.ui.restore_window_button.setIcon(
                 QtGui.QIcon(u":/icons/icons/minimize-2.svg"))
+        # Get current left menu width
+        width = self.ui.slide_menu_container.width()
+        if width != 0:
+            current_height = self.ui.slide_menu_items.height()
+            newheight = self.ui.slide_menu_container.height() - self.ui.app_frame.height() - \
+                self.ui.exit_frame.height()
+            # Animate the transition
+            self.menu_item_animation = QtCore.QPropertyAnimation(
+                self.ui.slide_menu_items, b"maximumHeight")  # Animate minimumWidth
+            self.menu_item_animation.setDuration(250)
+            # Start value is the current menu width
+            self.menu_item_animation.setStartValue(current_height)
+            # end value is the new menu width
+            self.menu_item_animation.setEndValue(newheight)
+            self.menu_item_animation.setEasingCurve(
+                QtCore.QEasingCurve.InOutQuart)
+            self.menu_item_animation.start()
 
     ###############################################################################################
     # Add mouse events to the window
@@ -148,14 +183,16 @@ class MainWindow(QMainWindow):
                 QtGui.QIcon(u":/icons/icons/align-left.svg"))
 
         # Animate the transition
-        self.animation = QPropertyAnimation(
+        self.slide_menu_animation = QtCore.QPropertyAnimation(
             self.ui.slide_menu_container, b"maximumWidth")  # Animate minimumWidth
-        self.animation.setDuration(250)
+        self.slide_menu_animation.setDuration(250)
         # Start value is the current menu width
-        self.animation.setStartValue(width)
-        self.animation.setEndValue(newwidth)  # end value is the new menu width
-        self.animation.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
-        self.animation.start()
+        self.slide_menu_animation.setStartValue(width)
+        self.slide_menu_animation.setEndValue(
+            newwidth)  # end value is the new menu width
+        self.slide_menu_animation.setEasingCurve(
+            QtCore.QEasingCurve.InOutQuart)
+        self.slide_menu_animation.start()
 
         self.slideDownMenuItems()
 
@@ -173,20 +210,20 @@ class MainWindow(QMainWindow):
             newheight = 0
 
         # Animate the transition
-        self.animation2 = QPropertyAnimation(
+        self.menu_item_animation = QtCore.QPropertyAnimation(
             self.ui.slide_menu_items, b"maximumHeight")  # Animate minimumWidth
-        self.animation2.setDuration(250)
+        self.menu_item_animation.setDuration(250)
         # Start value is the current menu width
-        self.animation2.setStartValue(current_height)
+        self.menu_item_animation.setStartValue(current_height)
         # end value is the new menu width
-        self.animation2.setEndValue(newheight)
-        self.animation2.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
-        self.animation2.start()
+        self.menu_item_animation.setEndValue(newheight)
+        self.menu_item_animation.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
+        self.menu_item_animation.start()
 
     def click_button(self):
         global PREV_BUTTON
-
         sender = self.sender()
+        self.load_view(sender)
         if sender is PREV_BUTTON:
             return
         sender.setStyleSheet("""
@@ -210,15 +247,40 @@ class MainWindow(QMainWindow):
             """)
         PREV_BUTTON = sender
 
+    def load_view(self, button_object):
+        if button_object.objectName() == "github_browser_button":
+            self.change_current_stackwidget("browser", Browser())
+        elif button_object.objectName() == "repository_button":
+            # print("RUN")
+            # self.views.get("browser").get("view").browser.setUrl(
+            #     QtCore.QUrl("http://www.google.com"))
+            self.change_current_stackwidget("repository", Repository())
+            pass
+
+    def change_current_stackwidget(self, kwrg: str, view=None):
+        if self.views.get(kwrg) is None:
+            self.views.update({
+                str(kwrg): {"view": view, "index": self.views.get("total")}})
+            self.views["total"] += 1
+            self.ui.stackedWidget.addWidget(
+                self.views.get(kwrg).get("view"))
+        self.ui.stackedWidget.setCurrentWidget(
+            self.views.get(kwrg).get("view"))
+        self.ui.stackedWidget.setCurrentIndex(
+            self.views.get(kwrg).get("index"))
+
 
 ##########################################
 # EXECUTE APP
 ##########################################
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)
     window = MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    try:
+        sys.exit(app.exec_())
+    except:
+        window.views.get("browser").get("view").browser.close()
 
 ##########################################
 # END ==>

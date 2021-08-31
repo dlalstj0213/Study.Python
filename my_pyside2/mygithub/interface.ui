@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1180</width>
-    <height>873</height>
+    <height>875</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -145,7 +145,7 @@ color: rgb(255, 255, 255);</string>
               <number>6</number>
              </property>
              <item alignment="Qt::AlignLeft|Qt::AlignTop">
-              <widget class="QLabel" name="label_2">
+              <widget class="QLabel" name="lbl_app_name">
                <property name="font">
                 <font>
                  <family>Nirmala UI</family>
@@ -154,13 +154,22 @@ color: rgb(255, 255, 255);</string>
                  <bold>true</bold>
                 </font>
                </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="mouseTracking">
+                <bool>false</bool>
+               </property>
                <property name="text">
-                <string>APP NAME</string>
+                <string>MY GITGUB</string>
                </property>
               </widget>
              </item>
              <item alignment="Qt::AlignLeft|Qt::AlignTop">
-              <widget class="QLabel" name="label_3">
+              <widget class="QLabel" name="lbl_app_icon">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
                <property name="text">
                 <string/>
                </property>
@@ -226,7 +235,7 @@ color: rgb(255, 255, 255);</string>
                 <bool>true</bool>
                </property>
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -293,7 +302,7 @@ QLabel{
                   <x>0</x>
                   <y>0</y>
                   <width>198</width>
-                  <height>745</height>
+                  <height>747</height>
                  </rect>
                 </property>
                 <property name="styleSheet">
@@ -305,7 +314,7 @@ QLabel{
                   <normalon>:/icons/icons/chevron-down.svg</normalon>:/icons/icons/chevron-down.svg</iconset>
                 </attribute>
                 <attribute name="label">
-                 <string>Drop Menu 1</string>
+                 <string>GIT</string>
                 </attribute>
                 <layout class="QVBoxLayout" name="verticalLayout_7" stretch="0">
                  <property name="spacing">
@@ -351,7 +360,7 @@ QLabel{
                      <number>0</number>
                     </property>
                     <item>
-                     <widget class="QPushButton" name="pushButton_10">
+                     <widget class="QPushButton" name="github_browser_button">
                       <property name="font">
                        <font>
                         <family>Nirmala UI</family>
@@ -361,11 +370,11 @@ QLabel{
                        </font>
                       </property>
                       <property name="text">
-                       <string>ITEM 1</string>
+                       <string>GitHub Browser</string>
                       </property>
                       <property name="icon">
                        <iconset resource="icons.qrc">
-                        <normaloff>:/icons/icons/alert-triangle.svg</normaloff>:/icons/icons/alert-triangle.svg</iconset>
+                        <normaloff>:/icons/icons/globe.svg</normaloff>:/icons/icons/globe.svg</iconset>
                       </property>
                       <property name="iconSize">
                        <size>
@@ -376,20 +385,20 @@ QLabel{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QPushButton" name="pushButton_11">
+                     <widget class="QPushButton" name="repository_button">
                       <property name="text">
-                       <string>ITEM 2</string>
+                       <string>Repository</string>
                       </property>
                       <property name="icon">
                        <iconset resource="icons.qrc">
-                        <normaloff>:/icons/icons/bar-chart-2.svg</normaloff>:/icons/icons/bar-chart-2.svg</iconset>
+                        <normaloff>:/icons/icons/database.svg</normaloff>:/icons/icons/database.svg</iconset>
                       </property>
                      </widget>
                     </item>
                     <item>
                      <widget class="QPushButton" name="pushButton_12">
                       <property name="text">
-                       <string>ITEM 3</string>
+                       <string>SUB_MENU</string>
                       </property>
                       <property name="icon">
                        <iconset resource="icons.qrc">
@@ -408,7 +417,7 @@ QLabel{
                   <x>0</x>
                   <y>0</y>
                   <width>200</width>
-                  <height>745</height>
+                  <height>747</height>
                  </rect>
                 </property>
                 <property name="contextMenuPolicy">
@@ -419,7 +428,7 @@ QLabel{
                   <normaloff>:/icons/icons/chevron-down.svg</normaloff>:/icons/icons/chevron-down.svg</iconset>
                 </attribute>
                 <attribute name="label">
-                 <string>Drop Menu 2</string>
+                 <string>SETTINGS</string>
                 </attribute>
                 <layout class="QVBoxLayout" name="verticalLayout_9">
                  <property name="spacing">
@@ -922,6 +931,9 @@ QPushButton::hover{
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -929,51 +941,16 @@ QPushButton::hover{
           <enum>QFrame::Raised</enum>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_11">
-          <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
-           <widget class="QLabel" name="label_5">
-            <property name="minimumSize">
-             <size>
-              <width>60</width>
-              <height>60</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>60</width>
-              <height>60</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">border: 5px solid rgb(230, 5, 64);
-border-radius: 30px;</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="pixmap">
-             <pixmap resource="icons.qrc">:/icons/icons/github.svg</pixmap>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item alignment="Qt::AlignHCenter|Qt::AlignTop">
-           <widget class="QLabel" name="label_6">
-            <property name="font">
-             <font>
-              <family>Nirmala UI</family>
-              <pointsize>20</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>GITHUB</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <widget class="QWidget" name="page"/>
+            <widget class="QWidget" name="page_2"/>
            </widget>
           </item>
          </layout>
