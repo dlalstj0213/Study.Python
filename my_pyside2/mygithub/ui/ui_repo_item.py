@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'repo_itemOomCUs.ui'
+## Form generated from reading UI file 'repo_itemPVVTmD.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -96,17 +96,36 @@ class Ui_MainWindow(object):
         self.repo_info_frame.setFrameShadow(QFrame.Raised)
         self.verticalLayout_4 = QVBoxLayout(self.repo_info_frame)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
-        self.label_2 = QLabel(self.repo_info_frame)
-        self.label_2.setObjectName(u"label_2")
-        self.label_2.setWordWrap(True)
+        self.lbl_description = QLabel(self.repo_info_frame)
+        self.lbl_description.setObjectName(u"lbl_description")
 
-        self.verticalLayout_4.addWidget(self.label_2)
+        self.verticalLayout_4.addWidget(self.lbl_description)
 
-        self.label_3 = QLabel(self.repo_info_frame)
-        self.label_3.setObjectName(u"label_3")
-        self.label_3.setWordWrap(True)
+        self.lbl_language = QLabel(self.repo_info_frame)
+        self.lbl_language.setObjectName(u"lbl_language")
 
-        self.verticalLayout_4.addWidget(self.label_3)
+        self.verticalLayout_4.addWidget(self.lbl_language)
+
+        self.lbl_updated = QLabel(self.repo_info_frame)
+        self.lbl_updated.setObjectName(u"lbl_updated")
+
+        self.verticalLayout_4.addWidget(self.lbl_updated)
+
+        self.lbl_created_at = QLabel(self.repo_info_frame)
+        self.lbl_created_at.setObjectName(u"lbl_created_at")
+        font1 = QFont()
+        font1.setFamily(u"Nirmala UI Semilight")
+        self.lbl_created_at.setFont(font1)
+        self.lbl_created_at.setWordWrap(True)
+
+        self.verticalLayout_4.addWidget(self.lbl_created_at)
+
+        self.lbl_stars = QLabel(self.repo_info_frame)
+        self.lbl_stars.setObjectName(u"lbl_stars")
+        self.lbl_stars.setFont(font1)
+        self.lbl_stars.setWordWrap(True)
+
+        self.verticalLayout_4.addWidget(self.lbl_stars)
 
 
         self.verticalLayout_2.addWidget(self.repo_info_frame)
@@ -131,11 +150,16 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.pushButton = QPushButton(self.repo_control_frame)
         self.pushButton.setObjectName(u"pushButton")
+        font2 = QFont()
+        font2.setFamily(u"Nirmala UI Semilight")
+        font2.setPointSize(9)
+        self.pushButton.setFont(font2)
 
         self.horizontalLayout.addWidget(self.pushButton)
 
         self.pushButton_2 = QPushButton(self.repo_control_frame)
         self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setFont(font2)
 
         self.horizontalLayout.addWidget(self.pushButton_2)
 
@@ -156,8 +180,11 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.lbl_repo_icon.setText("")
         self.lbl_repo_name.setText(QCoreApplication.translate("MainWindow", u"Repository Name", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"# Repository Description : input your repository description here", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"# Language : input your language here", None))
+        self.lbl_description.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.lbl_language.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.lbl_updated.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.lbl_created_at.setText(QCoreApplication.translate("MainWindow", u"# Repository Description : input your repository description here", None))
+        self.lbl_stars.setText(QCoreApplication.translate("MainWindow", u"# Language : input your language here", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"BUTTON_1", None))
         self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"BUTTON_2", None))
     # retranslateUi

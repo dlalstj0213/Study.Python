@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interfacempvMeg.ui'
+## Form generated from reading UI file 'interfacekYNlJS.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1180, 875)
+        MainWindow.resize(1179, 875)
         MainWindow.setStyleSheet(u"*{\n"
 "	border: none;\n"
 "}")
@@ -453,7 +453,12 @@ class Ui_MainWindow(object):
         self.main_body_contents.setObjectName(u"main_body_contents")
         sizePolicy2.setHeightForWidth(self.main_body_contents.sizePolicy().hasHeightForWidth())
         self.main_body_contents.setSizePolicy(sizePolicy2)
-        self.main_body_contents.setStyleSheet(u"")
+        self.main_body_contents.setStyleSheet(u"QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {\n"
+"    background: none;\n"
+"}\n"
+"QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {\n"
+"    background: none;\n"
+"}")
         self.main_body_contents.setFrameShape(QFrame.StyledPanel)
         self.main_body_contents.setFrameShadow(QFrame.Raised)
         self.verticalLayout_11 = QVBoxLayout(self.main_body_contents)

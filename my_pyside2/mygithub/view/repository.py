@@ -5,6 +5,7 @@ import PySide2.QtWidgets as QtGuiWidgets
 
 from ui.ui_repository import *
 from view.repo_item import RepoItem
+from service.git_service import GitService
 #########################################
 # MAIN WINDOW CLASS
 #########################################
@@ -16,13 +17,21 @@ class Repository(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        for x in range(0, 3):
+        self.mygit = GitService(
+            "dlalstj0213", "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")
+        repos = self.mygit.find_all_repo()
+        i = (len(repos) // 3) + 1
+        cnt = 0
+        for x in range(0, i):
             # colums
             for y in range(0, 3):
-                self.createNewWidgets(x, y)
+                if cnt == len(repos):
+                    break
+                self.createNewWidgets(repos[cnt], x, y)
+                cnt += 1
 
-    def createNewWidgets(self, row_num, col_num):
-        view = RepoItem()
+    def createNewWidgets(self, repo, row_num, col_num):
+        view = RepoItem(repo)
         self.ui.gridLayout.addWidget(
             view, row_num, col_num, 1, 1, Qt.AlignHCenter | Qt.AlignVCenter)
 

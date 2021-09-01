@@ -16,7 +16,7 @@ def print_repo(repo):
     # repository description
     print("Description:", repo.description)
     # the date of when the repo was created
-    print("Date created:", repo.created_at)
+    print("Date created:", type(repo.created_at))
     # the date of the last git push
     print("Date of last push:", repo.pushed_at)
     # home website (if available)
@@ -38,7 +38,11 @@ def print_repo(repo):
             repo.get_license().content.encode()).decode())
     except:
         pass
+    print("LINKS:", repo.html_url)
+    print("Name:", repo.name)
 
 
-for repo in user.get_repos():
-    print_repo(repo)
+print_repo(user.get_repos()[0])
+
+# for repo in user.get_repos():
+#     print_repo(repo)
