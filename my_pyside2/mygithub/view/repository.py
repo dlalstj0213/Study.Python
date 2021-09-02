@@ -18,7 +18,7 @@ class Repository(QMainWindow):
         self.ui.setupUi(self)
 
         self.mygit = GitService(
-            "dlalstj0213", "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")
+            "dlalstj0213")
         repos = self.mygit.find_all_repo()
         i = (len(repos) // 3) + 1
         cnt = 0

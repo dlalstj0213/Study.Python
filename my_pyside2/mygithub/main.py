@@ -119,10 +119,21 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.lbl_app_name.mousePressEvent = mouseClicked
         self.ui.lbl_app_icon.mousePressEvent = mouseClicked
 
+        self.setQStackWidgetTransition()
+
+    def setQStackWidgetTransition(self):
+        # ## Slide Animation
+        self.ui.stackedWidget.setTransitionDirection(
+            QtCore.Qt.Vertical)  # Vertical, Horizontal
+        self.ui.stackedWidget.setTransitionSpeed(500)
+        self.ui.stackedWidget.setTransitionEasingCurve(
+            QtCore.QEasingCurve.Linear)  # OutInBounce, Linear
+        # ## Active Animation
+        self.ui.stackedWidget.setSlideTransition(True)
+
     ###############################################################################################
     # Update restore button icon on maximizing or minimizing the window
     ###############################################################################################
-
     def restore_or_maximize_window(self):
         # If window is maximized
         if self.isMaximized():

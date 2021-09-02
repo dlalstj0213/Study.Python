@@ -1,0 +1,39 @@
+{
+	"QStackedWidget":[
+		{
+			"name":"stackedWidget",
+			"transitionAnimation":[
+				{
+					"fade":[
+						{
+							"active": true,
+							"duration":1000,
+							"easingCurve": "OutBack"
+						}
+					],
+					"slide":[
+						{
+							"active":true,
+							"duration": 1000,
+							"direction": "horizontal",
+							"easingCurve": "Linear"
+						}
+					]
+				}
+			],
+			"navigation":[
+				{
+					"nextPage":"nxt",
+					"previousPage": "prev",
+					"navigationButtons":[
+						{
+							"page1": "page",
+							"page2": "page_2"
+						}
+					]
+				}
+			]
+	
+		}
+	]
+}
