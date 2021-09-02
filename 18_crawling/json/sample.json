@@ -1,4 +1,3965 @@
 {
-  "timestamp": "2021-09-02 00:03:59.348680",
-  "recruitment": []
+  "timestamp": "2021-09-02 16:37:35.045501",
+  "recruitment": [
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "2022 카카오 신입개발자 블라인드 채용 - Programming & Infra/DB/보안 분야 소개",
+      "url_link": "https://careers.kakao.com/jobs/P-12147?page=1",
+      "tags": [
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 전문연구요원(전직 및 보충역) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-9349?page=1",
+      "tags": [
+        "#Android",
+        "#iOS",
+        "#Windows",
+        "#Web front",
+        "#System",
+        "#Network",
+        "#Cloud",
+        "#DB",
+        "#Security",
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 엔지니어 및 사이언티스트 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11888?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 전문가(모델러/분석가/엔지니어) 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12003?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Hadoop eco system",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "My구독 서버 개발자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11914?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[브런치] web backend 경력 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11322?page=1",
+      "tags": [
+        "#Web front",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오페이구매] (경력) 서버개발자 모집 ",
+      "url_link": "https://careers.kakao.com/jobs/P-12090?page=1",
+      "tags": [
+        "#DB",
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "머신러닝 엔지니어 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11842?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#NLP"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 인프라 담당자 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11841?page=1",
+      "tags": [
+        "#Hadoop eco system",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[데이터 프로덕트] 데이터 분석가 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11840?page=1",
+      "tags": [
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "데이터 프로덕트 PM 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11839?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Statistics/Analysis",
+        "#기타"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] (경력) 서버 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-11953?page=1",
+      "tags": [
+        "#Server"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 데이터의 가치를 발굴할 데이터 분석가 모집 (경력)",
+      "url_link": "https://careers.kakao.com/jobs/P-11899?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "[카카오맵] 검색/추천 개발자 모집",
+      "url_link": "https://careers.kakao.com/jobs/P-12022?page=1",
+      "tags": [
+        "#Algorithm/ML",
+        "#Algorithm/Ranking",
+        "#Server",
+        "#Statistics/Analysis"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    },
+    {
+      "title": "카카오 에디터 SDK 개발자 모집(iOS)",
+      "url_link": "https://careers.kakao.com/jobs/P-11323?page=1",
+      "tags": [
+        "#iOS"
+      ],
+      "recruitment_period": "영입종료시",
+      "work_palce": "판교",
+      "company": "카카오",
+      "emp_type": "정규직"
+    }
+  ]
 }

@@ -94,17 +94,11 @@ def main():
     total_page = kakao.find_total_page()
     result = []
 
-    # start = time.time()
-    # for p in range(1, total_page+1):
-    #     result.extend(kakao.find_recruitment_by_page(p))
-
-    ###########################################
-    ## START TEST CODE ########################
     start = time.time()
-    for i in range(0, 2):
-        kakao.find_recruitment_by_page(1)
-    ## END TEST CODE ##########################
-    ###########################################
+    # for p in range(1, total_page+1):
+    for p in range(1, 21):
+        # result.extend(kakao.find_recruitment_by_page(p))
+        result.extend(kakao.find_recruitment_by_page(1))
     end = time.time()
     time_took = end - start
 
@@ -114,7 +108,7 @@ def main():
     data['recruitment'].extend(result)
 
     f = FileService()
-    text_log = f"main :: {now} >>> 크롤링 걸린시간: {end - start} | 크롤링 갯수: {len(result)}"
+    text_log = f"{now} :: main >>> 크롤링 걸린시간: {time_took} | 크롤링 갯수: {len(result)}"
     f.write_logs_in_json("sample", data, text_log)
 
 

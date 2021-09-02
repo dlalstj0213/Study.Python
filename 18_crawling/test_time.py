@@ -15,7 +15,7 @@ import asyncio
 @dataclass
 class HttpClient:
     async def request_html(self, url) -> BeautifulSoup:
-        response = requests.get(url)
+        response = await loop.run_in_executor(None, requests.get, url)
 
         if response.status_code == 200:
             html = response.text
@@ -43,38 +43,38 @@ class KakaoCrawler:
     target_url: str = field(default="/jobs?page=")
     http: HttpClient = field(default_factory=HttpClient)
 
-    def find_total_page(self) -> int:
+    async def find_total_page(self) -> int:
         url = self.base_url + self.target_url + "1"
-        soup = self.http.request_html(url)
+        soup = await self.http.request_html(url)
         page_query = soup.select_one(".change_page.btn_lst")["href"]
         page = page_query[(page_query.index("=")+1):]
         return int(page)
 
     async def find_recruitment_by_page(self, page: str) -> List[KakaoJob]:
-        # for i in range(2):
-        #     await asyncio.sleep(1)
-        #     print(i, end=" ")
-
-        url = self.base_url + self.target_url + str(page)
-        soup = await self.http.request_html(url)
-        if soup is None:
+        url = self.base_url + self.target_url
+        futures = [asyncio.ensure_future(
+            self.http.request_html(f"{url}{1}")) for p in range(1, 21)]
+        # futures = [asyncio.ensure_future(
+        #     self.http.request_html(f"{url}{p}")) for p in range(1, page+1)]
+        soups = await asyncio.gather(*futures)
+        if len(soups) == 0:
             return None
-
-        ul = soup.select('ul.list_jobs > li')
         item_list = []
-        for li in ul:
-            item = KakaoJob(
-                li.select_one("h4").get_text(),
-                self.base_url + li.select_one(".link_jobs")['href'],
-                [a.get_text().strip()
-                    for a in li.select(".list_tag > a")],
-                li.select(".list_info > dd")[0].get_text(),
-                li.select(".list_info > dd")[1].get_text(),
-                li.select(".item_subinfo > dd")[0].get_text(),
-                li.select(".item_subinfo > dd")[1].get_text()
-            )
-            # item_list.append(item)
-            item_list.append(item.__dict__)
+        for soup in soups:
+            ul = soup.select('ul.list_jobs > li')
+            for li in ul:
+                item = KakaoJob(
+                    li.select_one("h4").get_text(),
+                    self.base_url + li.select_one(".link_jobs")['href'],
+                    [a.get_text().strip()
+                        for a in li.select(".list_tag > a")],
+                    li.select(".list_info > dd")[0].get_text(),
+                    li.select(".list_info > dd")[1].get_text(),
+                    li.select(".item_subinfo > dd")[0].get_text(),
+                    li.select(".item_subinfo > dd")[1].get_text()
+                )
+                # item_list.append(item)
+                item_list.append(item.__dict__)
         return item_list
 
 
@@ -97,44 +97,25 @@ class FileService:
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
-
     kakao = KakaoCrawler()
-    # total_page = kakao.find_total_page()
-    result = []
+    future_total_page = asyncio.ensure_future(kakao.find_total_page())
+    loop.run_until_complete(future_total_page)
+    total_page = future_total_page.result()
 
-    # result1 = asyncio.ensure_future(kakao.find_recruitment_by_page(1))
-    # result2 = asyncio.ensure_future(kakao.find_recruitment_by_page(2))
-    # result3 = asyncio.ensure_future(kakao.find_recruitment_by_page(3))
-    # result4 = asyncio.ensure_future(kakao.find_recruitment_by_page(4))
-    # result5 = asyncio.ensure_future(kakao.find_recruitment_by_page(5))
-    # result6 = asyncio.ensure_future(kakao.find_recruitment_by_page(6))
-
-    # start = time.time()
-    # loop.run_until_complete(
-    #     asyncio.gather(result1, result2, result3, result4,
-    #                    result5, result6, kakao.find_recruitment_by_page(1), kakao.find_recruitment_by_page(1), kakao.find_recruitment_by_page(1), kakao.find_recruitment_by_page(1), kakao.find_recruitment_by_page(1), kakao.find_recruitment_by_page(1), kakao.find_recruitment_by_page(1))
-    # )
+    future_find_recruitment = asyncio.ensure_future(
+        kakao.find_recruitment_by_page(total_page))
     start = time.time()
-    loop.run_until_complete(
-        asyncio.gather(kakao.find_recruitment_by_page(1),
-                       kakao.find_recruitment_by_page(1))
-    )
+    loop.run_until_complete(future_find_recruitment)
     end = time.time()
     time_took = end - start
 
     now = str(datetime.now())
     data = {'timestamp': now}
     data['recruitment'] = []
-    data['recruitment'].extend(result)
-    # data['recruitment'].extend(result1.result())
-    # data['recruitment'].extend(result2.result())
-    # data['recruitment'].extend(result3.result())
-    # data['recruitment'].extend(result4.result())
-    # data['recruitment'].extend(result5.result())
-    # data['recruitment'].extend(result6.result())
+    data['recruitment'].extend(future_find_recruitment.result())
 
     f = FileService()
-    text_log = f"test_main :: {now} >>> 크롤링 걸린시간: {end - start} | 크롤링 갯수: {len(data['recruitment'])}"
+    text_log = f"{now} :: test_main >>> 크롤링 걸린시간: {end - start} | 크롤링 갯수: {len(data['recruitment'])}"
     f.write_logs_in_json("sample", data, text_log)
 
     main()
