@@ -42,7 +42,7 @@ asyncio는 고성능 네트워크 및 웹 서버, 데이터베이스 연결 라�
 스텍오버플로우에서는 jupyter notebook 사용시 nest-ascyncio 사용을 권장하지만 불편하기 때문에  
 이번에는 순수 .py 스크립트로 작성함
 
-### 📌 [동기(Sync)와 비동기(Async) 비교](./comparison.ipynb)
+### 📌 [동기(Sync)와 비동기(Async) 비교](./comparison.py)
 ### 📌 [await으로 반환값 받기](./async_await.py)
 ### 📌 [future: 미래의 결과값 받기](./asyncio_future.py)
 
