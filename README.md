@@ -27,6 +27,7 @@
 - [🏷 **심화: 메타 클래스**](./13_class/meta_clazz.ipynb)
 - [🏷 **활용: dataclasses**](./13_class/dataclazzes.ipynb)
 - [🏷 **활용: Enum**](./13_class/e_n_u_m.ipynb)
+### 📌 [타입 힌트](./19_hint)
 ### 📌 [**PyQt5 사용하기**](./15_python_gui)
 ### 📌 [**Python Programe Build**](./15_python_gui/build)
 ### 📌 [코루틴](./16_coroutine)
